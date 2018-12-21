@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.WorryActivityDua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In Times Of Worry And Grief (D217 - D218)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="In times of worry and grief (D217)"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ إِنِّي عَبْدُكَ , وَ ابْنُ عَبْدِكَ , وَ ابْنُ أَمَتِكَ ,نَاصِيَتِي بِيَدِكَ, مَاضٍ فِيَّ حُكْمَكَ, عَدْلٌ فِيَّ قَضَاؤُكَ ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ , سَمَّيْتَ بِهِ نَفْسَكَ ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ ،أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَأَنْ تَجْعَلْ الْقُرْآنَ رَبِيْعَ قَلْبِي, وَ نُوْرَ صَدْرِيْْ, وَ جَلَاءَ حُزْنِي, وَ ذَهَابَ هَمِّي."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D217-	Allaahumma ‘innee ‘abduka, ibnu ‘abdika, ibnu ‘amatika, naasiyatee biyadika, maadhin fiyya, ‘as’aluka bikulli ismin huwa laka, sammayta bihi nafsaka, ‘aw ‘allamtahu ‘ahadan min khalqika, ‘awista’tharta bihi fee ‘ilmil-ghaybi ‘indaka, ‘an taj’alal-Qur’aana rabee’a qalbee, wa noora sadree, wa jalaa’a huznee, wa thahaaba hammee."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah, I am Your slave and the son of Your male slave and the son of your female slave. My forehead is in Your Hand (i.e. you have control over me). Your Judgment upon me is assured and Your decree concerning me is just. I ask You by ever Name that You have named Yourself with, revealed in Your Book,taught any one of Your creation or kept unto Yourself in the knowledge of the unseen that is with You, to make the Qur’an the Spring of my heart, and the light of my chest, the banisher of my sadness and the reliever of my distress."
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[Ahmad 1/391, and Al-Albāni graded it authentic.]"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In times of worry and grief (D218)"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ ."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D218-	Allaahumma ‘innee ‘a’oothu bika minal-hammi walhazani, wal’ajzi walkasali, walbukhli waljubni, wa dhala’id-dayni wa ghalabatir-rijaal."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah, I seek refuge in you from grief and sadness, from weakness and from laziness, from miserliness and from cowardice, from being overcome by debt and overpowered by men (i.e. others)."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[Al-Bukhāri 7/158. See also Al-Asqalāni, Fathul-Bāri 11/173.]"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

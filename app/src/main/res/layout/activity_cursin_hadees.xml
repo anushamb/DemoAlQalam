@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/week_dim"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.materialhadees.CursinHadeesActvity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CURSING"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported by Abu Hurairah (Radiyallahu Anhu) that the Prophet (s.a.w) said: “It is not proper for a truthful person to become a curser.”"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="يْهِ وَسَلَّمَ- « لاَ يَنْبَغِى لِصِدِّيقٍ أَنْ يَكُونَ لَعَّانًا"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

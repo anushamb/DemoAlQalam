@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.TellsLoveActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        android:text="  “I love you for the sake of Allah” (D113)"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:text="أَحَبَّكَ الَّذِى أَحْبَبْتَنِى لَهُ."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="D113-  ‘Ahabbakal-lathee ‘ahbabtanee lahu."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="May He for Whose sake you love me, love you."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="[Abu Dawud 4/333. Al-Albāni graded it good in Sahih Abu Dawud 3/965.]"
+        tools:ignore="HardcodedText" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1/1"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+</LinearLayout>

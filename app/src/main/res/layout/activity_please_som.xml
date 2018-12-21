@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+   android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.PleaseSomActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When Something Happened That Pleased (D197)"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:text="اَلْحَمْدُ لِلّٰهِ الَّذِي بِنِعْمَتِهِ تَتِمُ الصَّالِحَاتِ."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="D197-  Alhamdu lillaahil-lathee bini’matihi tatimmus-saalihaat."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="Praise is to Allah Who by His blessings all good things are perfected."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1/1"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+</LinearLayout>

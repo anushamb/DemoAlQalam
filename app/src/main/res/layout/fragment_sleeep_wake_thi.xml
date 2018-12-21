@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.SleeepWakeThiFragemt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When You Wake Up (D184)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَلْحَمْدُ لِلّٰهِ الَّذِي عَافَانِي فِي جَسَدِي وَ رَدَّ عَلَىَّ رُوْحِي وَ أَذِنَ لِي بِذِكْرِهِ"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D184-	Alhamdu lillaahil-lathee ‘aafaanee fee jasadee, wa radda ‘alayya roohee, wa ‘athina lee bithikrihi."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="Praise is to Allah Who gave strength to my body and returned my soul to me and permitted me to remember Him."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 3/4"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

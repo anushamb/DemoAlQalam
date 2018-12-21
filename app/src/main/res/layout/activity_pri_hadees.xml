@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/week_dim"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.materialhadees.PriHadeesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRIDE (KIBR)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Narrated Ibn Masud(r.a) that the Messenger of Allah Apostle of Allah said: “Whosoever has got pride in his heart even to the weight of an atom shall not enter Paradise.” A man then enquired about some one who"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="يُحِبُّ الْجَمَالَ اَلْكِبْرُ بَطَرُ الْحَقِّ وَغَمْطُ النَّاسِ"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DeightFragment">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/colorWhite"
+     android:orientation="vertical"
+     android:padding="16dp">
+
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Allah’s Remembrance For Morning And Evening (D008)"
+      tools:ignore="HardcodedText"
+      android:textStyle="bold"
+      android:textSize="@dimen/dua_text_size"
+      android:textColor="@color/colorPrimary"
+      android:layout_gravity="center"
+      android:gravity="center"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+  <TextView
+      android:layout_width="match_parent"
+      tools:ignore="HardcodedText,RtlHardcoded"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/dua_arabic_text_size"
+      android:textColor="@color/duaTextColor"
+      android:textStyle="bold"
+      android:gravity="left"
+      android:textAlignment="center"
+      android:text="بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم
+قُلْ اَعُوْذُ بِرَبِّ النَّاسِ-مَلِكِ النَّاسِ-اِلٰهِ النَّاسِ-مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ-الَّذِىْ يُوَسْوِسُ فِىْ صُدُوْرِ النَّاسِ-مِنَ الْجِنَّةِ وَالنَّاس."/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="HardcodedText,RtlHardcoded"
+      android:textSize="@dimen/dua_arabic_eng_new"
+      android:textAppearance="@android:style/TextAppearance"
+      android:textColor="@color/duaTextColor"
+      android:gravity="left"
+      android:text="@string/deight"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="HardcodedText,RtlHardcoded"
+      android:textColor="@color/duaTextColor"
+      android:gravity="left"
+      android:textSize="@dimen/dua_eng_size_new"
+      android:textAppearance="@android:style/TextAppearance"
+      android:text="With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of mankind, the King of mankind, the God of mankind, from the evil of the whisperer who withdraws, Who whispers in the breasts of mankind, of jinns and men."/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="HardcodedText,RtlHardcoded"
+      android:textColor="@color/duaTextColor"
+      android:gravity="left"
+      android:textSize="@dimen/dua_eng_size_new"
+      android:textAppearance="@android:style/TextAppearance"
+      android:text="(Recite these three times each in Arabic.)"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="HardcodedText,RtlHardcoded"
+      android:textColor="@color/duaTextColor"
+      android:gravity="left"
+      android:textSize="@dimen/dua_eng_size_new"
+      android:textAppearance="@android:style/TextAppearance"
+      android:text="[Whoever recites these three times in the morning and in the evening, they will suffice him (as a protection) against everything. The Hadith was reported by Abu Dawud 4/322, and At-Tirmithi 5/567. See Al-Albāni’s Sahih At-Tirmithi 3/182.]"/>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Page 4/26"
+      android:textColor="@color/colorPrimary"
+      android:gravity="right"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText,RtlHardcoded" />
+
+<!--  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_gravity="end"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_move_next"
+      tools:ignore="ContentDescription" />-->
+
+
+
+
+ </LinearLayout>
+
+
+
+</ScrollView>

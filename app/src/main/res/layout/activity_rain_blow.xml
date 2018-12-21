@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.RainBlowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="When the wind blows (D146 - D147)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_heading_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ إِنِّى أَسْأَلُكَ خَيْرَهَا, وَأَعُوذُ بِكَ مِنْ شَرِّهَا ."
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="D146- 	Allaahumma ‘innee ‘as’aluka khayrahaa, wa ‘a’oothu bika min sharriha."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="O Allah, I ask You for the good of it and seek refuge in You against its evil."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="[Abu Dawud 4/326, Ibn Majāh 2/1228. See also Al-Albāni, Sahih Ibn Majāh 2/305.] "
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ إِنِّى أَسْأَلُكَ خَيْرَهَا,  وَخَيْرَ مَا فِيْهَا ، وَخَيْرَ مَا أُرْسِلَتْ بِهِ ، وَأَعُوْذُ بِكَ مِنْ شَرِّهَا ، وَشَرِّ مَا فِيْهَا ، وَشَرِّ مَا أُرْسِلَتْ بِهِ."
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="D147-	Allaahumma ‘innee ‘as’aluka khayrahaa, wa khayra maa feeha, wa khayra maa ‘ursilat bihi wa a’oothu bika min sharrihaa, wa sharri maa feehaa, wa sharri maa ‘ursilat bihi.  "
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="O Allah, I ask You for the good of it, for the good of what it contains, and for the good of what is sent with it. I seek refuge in You from the evil of it, from the evil of what it contains, and from the evil that is sent with it."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="[Muslim 2/616, Al-Bukhāri 4/76.]"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Page 1/1"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.frocerie.demoalqalam.dua.RainWhenActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When It Rains (D152)"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اَللّٰهُمَّ صَيِّبًا نَافِعًا."
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D152-  Allaahumma sayyiban naafi’an."
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O Allaah, (bring) beneficial rain clouds."
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[Al-Bukhāri, cf.Al-Asqalāni, Fathul-Bāri 2/518.]"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1/1"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+</LinearLayout>

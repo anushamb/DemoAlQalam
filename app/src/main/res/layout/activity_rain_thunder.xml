@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+
+    tools:context="com.frocerie.demoalqalam.dua.RainThunderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="When it thunder (D148)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ وَالْمَلَائِكَةُ مِنْ خِيْفَتِهِ."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D148- Subhaanal-lathee yusabbihur-ra’du bihamdihi walmalaa’ikatu min kheefatihi."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="Glory is to Him Whom thunder and angels glorigy due to fear of Him."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[Whenever Abdullah bin Zubair (R.A) would hear thunder, he would abandon all conversation and say this supplication. See Al-Muwatta’ 2/992. It wa graded authentic by Al-Albāni as a statement of Abdullah bin Zubayr only.] "
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+    </LinearLayout>
+
+
+</ScrollView>

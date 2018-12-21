@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfirst"
+    android:paddingBottom="20dp"
+    tools:context="com.frocerie.demoalqalam.toppers_activity.ToppersNewActivity"
+    tools:ignore="RtlHardcoded">
+
+
+    <TextView
+        android:id="@+id/tvExamTopper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exam_top"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        tools:ignore="RelativeOverlap" />
+
+
+    <Button
+        android:id="@+id/btn_badge_exam_topper"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/item_count"
+        android:layout_alignTop="@+id/tvExamTopper"
+        android:layout_alignRight="@+id/tvExamTopper"
+        android:layout_alignEnd="@+id/tvExamTopper"
+        tools:ignore="HardcodedText"
+        android:paddingTop="4dp"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/talen_top"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:id="@+id/tvTopperTalens"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btn_badge_exam_talen_top"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/item_count"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        tools:ignore="HardcodedText"
+        android:layout_alignTop="@+id/tvTopperTalens"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="4dp"/>
+
+
+
+
+
+
+
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exam_top"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:padding="5dp"
+            android:id="@+id/tvExamTopper"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            tools:ignore="RelativeOverlap" />
+
+
+        <Button
+            android:id="@+id/btn_badge_exm_toppers"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            tools:ignore="HardcodedText"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tvTopperTalens"
+            android:layout_toStartOf="@+id/tvTopperTalens" />
+
+        <Button
+            android:id="@+id/btn_badge_exam_talen"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/item_count"
+            android:layout_alignBaseline="@+id/btn_badge_exm_toppers"
+            android:layout_alignBottom="@+id/btn_badge_exm_toppers"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />-->
+
+    <!--   <View
+           android:layout_width="20dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/view"
+           android:layout_alignParentBottom="true"
+           android:layout_toLeftOf="@+id/tvTopperTalens"
+           android:layout_alignTop="@+id/tvExamTopper"
+           android:layout_toRightOf="@+id/tvExamTopper"
+           android:layout_toEndOf="@+id/tvExamTopper" />-->
+
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/talen_top"
+            android:textAllCaps="true"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/view"
+            android:id="@+id/tvTopperTalens" />-->
+    <!--...........................
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/talen_top"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:textAllCaps="true"
+            android:padding="5dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/tvTopperTalens"
+            tools:ignore="RelativeOverlap"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp" />...........-->
+
+    <!--   <TextView
+           android:id="@+id/exmTop"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Exam-Topper"
+           android:textColor="@color/colorWhite"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:onClick="onClick"
+           android:textAllCaps="true"
+           android:clickable="true"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TalensDay-Topper"
+           android:textAllCaps="true"
+           android:textColor="@color/colorWhite"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:onClick="onClick"
+           android:clickable="true"
+           tools:ignore="HardcodedText"
+           android:layout_toLeftOf="@+id/exmTop"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           />
+   -->
+
+
+</RelativeLayout>

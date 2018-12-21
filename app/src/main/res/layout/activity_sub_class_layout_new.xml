@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.weeklyplan.WeeklyLessonPlanActivity">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        tools:ignore="UnknownId,UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/weekLkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_lkg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekLkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekLkg"
+            android:layout_alignEnd="@+id/weekLkg"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/weekUkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekLkg"
+            android:background="@drawable/effect_ukg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekUkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekUkg"
+            android:layout_alignEnd="@+id/weekUkg" />
+
+        <Button
+            android:id="@+id/weekFirst"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_first"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekUkg"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnWeekFirst"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekFirst"
+            android:layout_alignEnd="@+id/weekFirst" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/second_badge_relative_layout"
+        android:layout_below="@id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/weekSecond"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_second"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekSecond"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/weekSecond"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/weekThird"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekSecond"
+            android:background="@drawable/effect_third"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekThird"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekThird"
+            android:layout_alignEnd="@+id/weekThird" />
+
+        <Button
+            android:id="@+id/weekForth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_forth"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekThird"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnWeekForth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekForth"
+            android:layout_alignEnd="@+id/weekForth" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/second_badge_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <Button
+            android:id="@+id/weekFifth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_fifth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekFifth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/weekFifth"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/weekSixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekFifth"
+            android:background="@drawable/effect_sixth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnWeekSixth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekSixth"
+            android:layout_alignEnd="@+id/weekSixth" />
+
+        <Button
+            android:id="@+id/weekSeventh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_seventh"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekSixth"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnWeekSeventh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="4dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/weekSeventh"
+            android:layout_alignEnd="@+id/weekSeventh" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <!--
+
+        <RelativeLayout
+            android:id="@+id/first_badge_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/weekLkg"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/effect_lkg"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekLkg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/weekLkg"
+                android:layout_toLeftOf="@+id/weekUkg"
+                android:layout_toStartOf="@+id/weekUkg"
+                android:background="@drawable/item_count"
+                android:text="0"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/weekUkg"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/weekLkg"
+                android:background="@drawable/effect_ukg"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekUkg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/item_count"
+                android:text="0"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText"
+                android:layout_alignTop="@+id/weekUkg"
+                android:layout_toLeftOf="@+id/weekFirst"
+                android:layout_toStartOf="@+id/weekFirst" />
+
+            <Button
+                android:id="@+id/weekFirst"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/weekUkg"
+                android:background="@drawable/effect_first"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekFirst"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekFirst"
+                android:layout_alignRight="@+id/weekFirst"
+                android:layout_alignTop="@+id/weekFirst"
+                android:background="@drawable/item_count"
+                android:text="0"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+            <Button
+                android:id="@+id/weekSecond"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekLkg"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/effect_second"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekSecond"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekSecond"
+                android:layout_alignLeft="@+id/btnWeekLkg"
+                android:layout_alignRight="@+id/weekSecond"
+                android:layout_alignTop="@+id/weekSecond"
+                android:background="@drawable/item_count"
+                android:text="2"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/weekThird"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekUkg"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/weekSecond"
+                android:background="@drawable/effect_third"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekThird"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekThird"
+                android:layout_alignRight="@+id/weekThird"
+                android:layout_alignTop="@+id/weekThird"
+                android:background="@drawable/item_count"
+                android:text="3"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+
+            <Button
+                android:id="@+id/weekForth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekFirst"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/weekThird"
+                android:background="@drawable/effect_forth"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekForth"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekForth"
+                android:layout_alignRight="@+id/weekForth"
+                android:layout_alignTop="@+id/weekForth"
+                android:background="@drawable/item_count"
+                android:text="4"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/weekFifth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekSecond"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/effect_fifth"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekFifth"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekFifth"
+                android:layout_alignRight="@+id/weekFifth"
+                android:layout_alignTop="@+id/weekFifth"
+                android:background="@drawable/item_count"
+                android:text="5"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+
+            <Button
+                android:id="@+id/weekSixth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekThird"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/weekFifth"
+                android:background="@drawable/effect_sixth"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekSixth"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekSixth"
+                android:layout_alignRight="@+id/weekSixth"
+                android:layout_alignTop="@+id/weekSixth"
+                android:background="@drawable/item_count"
+                android:text="6"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/weekSeventh"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/weekForth"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/weekSixth"
+                android:background="@drawable/effect_seventh"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnWeekSeventh"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignEnd="@+id/weekSeventh"
+                android:layout_alignRight="@+id/weekSeventh"
+                android:layout_alignTop="@+id/weekSeventh"
+
+                android:background="@drawable/item_count"
+                android:text="7"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText" />
+
+
+        </RelativeLayout>
+    -->
+
+
+    <!-- <RelativeLayout
+         android:id="@+id/second_badge_relative_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/first_badge_relative_layout"
+         >
+ -->
+    <!--<Button
+        android:id="@+id/weekSecond"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/effect_second" />-->
+
+    <!-- <Button
+         android:id="@+id/btnWeekSecond"
+         android:layout_width="20dp"
+         android:layout_height="20dp"
+         android:layout_alignRight="@+id/weekSecond"
+         android:background="@drawable/item_count"
+         android:text="0"
+         android:textColor="#FFF"
+         tools:ignore="HardcodedText,RtlHardcoded" />
+-->
+
+    <!-- <Button
+         android:id="@+id/weekThird"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_marginLeft="37dp"
+         android:layout_marginTop="15dp"
+         android:layout_toRightOf="@+id/weekSecond"
+         android:background="@drawable/effect_ukg"
+         tools:ignore="RtlHardcoded" />-->
+
+    <!-- <Button
+         android:id="@+id/weekThird"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="45dp"
+         android:layout_marginRight="45dp"
+         android:layout_marginTop="10dp"
+         android:layout_toRightOf="@+id/weekSecond"
+         android:background="@drawable/effect_third"
+         tools:ignore="RtlHardcoded" />-->
+
+    <!--    <Button
+            android:id="@+id/btnWeekThird"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:textColor="#FFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/weekThird"
+            android:layout_alignStart="@+id/weekThird"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            tools:ignore="HardcodedText" />-->
+    <!--
+            <Button
+                android:id="@+id/weekForth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/effect_forth"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/weekThird"
+                tools:ignore="RtlHardcoded" />-->
+    <!--<Button
+        android:id="@+id/btnWeekForth"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/item_count"
+        android:text="0"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />-->
+
+
+    <!--
+
+        </RelativeLayout>-->
+
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/second_badge_relative_layout"
+         android:layout_alignLeft="@+id/second_badge_relative_layout"
+         android:layout_alignStart="@+id/second_badge_relative_layout">
+ -->
+
+    <!--
+            <Button
+                android:id="@+id/weekFifth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/effect_fifth" />-->
+
+    <!--     <Button
+             android:id="@+id/btnWeekFifth"
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:layout_alignRight="@+id/weekFifth"
+             android:background="@drawable/item_count"
+             android:text="0"
+             android:textColor="#FFF"
+             tools:ignore="HardcodedText,RtlHardcoded" />-->
+
+    <!--    <Button
+            android:id="@+id/weekSixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/weekFifth"
+            android:background="@drawable/effect_sixth"
+            tools:ignore="RtlHardcoded" />
+-->
+    <!--    <Button
+            android:id="@+id/btnWeekSixth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:textColor="#FFF"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/weekSixth"
+            android:layout_alignStart="@+id/weekSixth"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            tools:ignore="HardcodedText" />-->
+
+    <!--     <Button
+             android:id="@+id/weekSeventh"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:background="@drawable/effect_seventh"
+             android:layout_marginBottom="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_toRightOf="@+id/weekSixth"
+             tools:ignore="RtlHardcoded" />-->
+    <!--
+            <Button
+                android:id="@+id/btnWeekSeventh"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/item_count"
+                android:text="0"
+                android:textColor="#FFF"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginRight="41dp"
+                android:layout_marginEnd="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+    -->
+
+
+    <!--    </RelativeLayout>-->
+
+
+</RelativeLayout>

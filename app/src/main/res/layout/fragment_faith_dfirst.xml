@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.FaithDFirstFragment">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+    android:text="Invocation for if you are stricken by in your faith (D102)"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:text="هُوَ الْأَوَّلُ وَالْآخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ ."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="D102-	Huwal-‘Awwalu wal-‘Akhiru wadh-Dhaahiru wal-Baatinu, wa Huwa bikulli shay’in ‘Aleem."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="(Recite the Ayat:) He is the First and the Last, the Most High and the Most Near. And He is the Knower of all things."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 2/2"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_back"
+        tools:ignore="ContentDescription" />-->
+
+</LinearLayout>

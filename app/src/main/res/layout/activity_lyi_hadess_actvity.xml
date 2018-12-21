@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/week_dim"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.materialhadees.LyiHadessActvity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LYING"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bahz bin Hakeem(R.A) reports from his father who reports from his grandfather that the Messenger of God (P.B.U.H) said: “Woe to him who lies while talking to make people laugh thereby. Woe to him!”"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ثُ فَيَكْذِبُ لِيُضْحِكَ بِهِ الْقَوْمَ وَيْلٌ لَهُ وَيْلٌ لَهُ"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

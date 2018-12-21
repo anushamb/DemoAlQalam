@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+
+    tools:context="com.frocerie.demoalqalam.dua.EvilActivityDua">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invocation against evil portent (D098)"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:text="اَللّٰهُمَّ لَا طَيْرَ إِلَّا طَيْرُكَ , وَ لَا خَيْرَ إِلَّا خَيْرُكَ , وَ لَا إِلَهَ غَيْرُكَ."
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="DD098-  Allaahumma laa tayra ‘illaa tayruka, wa laa khayra ‘illaa khayruka, wa laa ‘ilaaha ghayruka."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="O Allah there is no portent other than Your portent, no goodness other than Your goodness, and none worthy of worship other than You."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="[Ahmad 2/220, Ibn AS-Sunni (no.292). See also Al-Albāni, Silsilatul-‘Ahādīth As-Sahīhah 3/54, (no.1065). As for bodings of good, these used to please the Prophet (P.B.U.H) and so when he heard good words from you a good portent from your mouth,” Abu Dawud, Ahmad. See also Al-Albāni, Silsilatul-‘Ahādīth As-Sahīhah 2/363, and it is with Abu Ash-Shaikh Al-Asfahāni in ‘Akhlāqun-Nabiyy, pg.270.]"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fear you may afflict something with the evil eye"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="If you see anything of your brother that pleases you, or of his person or of his property [then ask Allah to bless him in it] for the envious eye is real."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="[Ahmad 4/447, Ibn Mājah, Malik. Al-Albāni graded it authentic in Sahihul-Jāmi’ As-Saghir 1/212. Also see Al-Arna’ut’s checking of Ibn Al-Qayyim’s Zādul-Ma’ād 4/170.]"
+        tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    </LinearLayout>
+
+</ScrollView>

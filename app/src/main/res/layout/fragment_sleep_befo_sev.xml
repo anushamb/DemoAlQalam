@@ -1,0 +1,212 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.SleepBefoSevFragemt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Before sleeping (D179-D180)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Before Sleeping (D179)"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ عَالِمِ الْغَيْبِ وَالشَّهَادَةِ، فَاطِرَ السَّمٰوَاتِ وَالْأَرْضِ،  رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اَنْتَ, أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِي سُوءًا، أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D179-	Allaahumma ‘Aalimal-ghaybi wash-shahaadati faatiras-samaawaati wal-ardhi, Rabba kulli shay’in wa maleekahu, ‘ash-hadu ‘an laa ‘ilaaha ‘illaa ‘Anta, ‘a’oothu bika min sharri nafsee, wa min sharrish-shaytaani wa shirkihi, wa ‘an ‘aqtarifa ‘alaa nafsee soo’an, ‘aw ‘ajurrahu ‘ilaa Muslimin."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah , Knower of the unseen and the evidenty, Maker of the heavens and the earth, Lord of everything and its Master, I bear witness that there is none worthy of worship but You. I seek refuge in You from the evil of my soul and from the evil of Satan and his helpers. (I Seek refuge in You) from bringing evil upon my soul and from harming any Muslim."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[Abu Dawud 4/317. See also Al-Albāni, Sahih At-Tirmithi 3/142.]"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Before sleeping (D180)"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="(الٓمٓ - تَنْزِيلُ الْكِتَابِ  )     وَ ( تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ)"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D180-	Recite Surah 32 (As-Sajdah) and Surah 67 (Al-Mulk)."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[At-Tirmithi, An-Nasā’i. See also Al-Albāni, Sahihul-Jāmi’ As-Saghīr 4/255.]"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 7/8"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+   <!--     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+    </LinearLayout>
+
+</ScrollView>

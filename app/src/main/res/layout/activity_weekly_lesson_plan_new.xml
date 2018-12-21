@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.frocerie.demoalqalam.weeklyplan.WeeklyLessonPlanActivity"
+    android:orientation="vertical"
+    android:background="@drawable/logbg"
+    android:weightSum="3"
+    android:layout_gravity="center">
+
+
+
+
+        <Button
+            android:id="@+id/weekLkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_lkg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekSecond"
+            app:layout_constraintVertical_bias="0.51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintRight_toLeftOf="@+id/weekUkg"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/weekUkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_ukg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekThird"
+            app:layout_constraintVertical_bias="0.51"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintRight_toLeftOf="@+id/weekFirst"
+            app:layout_constraintLeft_toRightOf="@id/weekLkg"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekFirst"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_first"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekForth"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintVertical_bias="0.501"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/weekUkg"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/weekSecond"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_second"
+            app:layout_constraintBottom_toTopOf="@+id/weekFifth"
+            app:layout_constraintTop_toBottomOf="@id/weekLkg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/weekThird"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekThird"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_third"
+            app:layout_constraintBottom_toTopOf="@+id/weekSixth"
+            app:layout_constraintTop_toBottomOf="@id/weekUkg"
+            app:layout_constraintRight_toLeftOf="@+id/weekForth"
+            app:layout_constraintLeft_toRightOf="@id/weekSecond"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekForth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_forth"
+            app:layout_constraintBottom_toTopOf="@+id/weekSeventh"
+            app:layout_constraintTop_toBottomOf="@id/weekFirst"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/weekThird"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/weekFifth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_fifth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/weekSecond"
+            app:layout_constraintRight_toLeftOf="@+id/weekSixth"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekSixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_sixth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/weekThird"
+            app:layout_constraintRight_toLeftOf="@+id/weekSeventh"
+            app:layout_constraintLeft_toRightOf="@id/weekFifth"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekSeventh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_seventh"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/weekForth"
+            app:layout_constraintLeft_toRightOf="@id/weekSixth"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_margin="5dp"/>
+
+
+
+
+
+
+        <!--<Button
+            android:id="@+id/weekLkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/lkg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekSecond"
+            app:layout_constraintVertical_bias="0.51"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintRight_toLeftOf="@+id/weekUkg"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/weekUkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ukg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekThird"
+            app:layout_constraintVertical_bias="0.51"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintRight_toLeftOf="@+id/weekFirst"
+            app:layout_constraintLeft_toRightOf="@id/weekLkg"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekFirst"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/first"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/weekForth"
+            app:layout_constraintVertical_chainStyle="spread"
+            app:layout_constraintVertical_bias="0.501"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/weekUkg"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/weekSecond"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/second"
+            app:layout_constraintBottom_toTopOf="@+id/weekFifth"
+            app:layout_constraintTop_toBottomOf="@id/weekLkg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/weekThird"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekThird"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/third"
+            app:layout_constraintBottom_toTopOf="@+id/weekSixth"
+            app:layout_constraintTop_toBottomOf="@id/weekUkg"
+            app:layout_constraintRight_toLeftOf="@+id/weekForth"
+            app:layout_constraintLeft_toRightOf="@id/weekSecond"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekForth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/forth"
+            app:layout_constraintBottom_toTopOf="@+id/weekSeventh"
+            app:layout_constraintTop_toBottomOf="@id/weekFirst"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/weekThird"
+            android:layout_margin="5dp"/>
+
+           <Button
+            android:id="@+id/weekFifth"
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+            android:background="@drawable/fifth"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintLeft_toLeftOf="parent"
+               app:layout_constraintTop_toBottomOf="@id/weekSecond"
+               app:layout_constraintRight_toLeftOf="@+id/weekSixth"
+             app:layout_constraintHorizontal_chainStyle="spread"
+               android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekSixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/sixth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/weekThird"
+            app:layout_constraintRight_toLeftOf="@+id/weekSeventh"
+           app:layout_constraintLeft_toRightOf="@id/weekFifth"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/weekSeventh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/seventh"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/weekForth"
+          app:layout_constraintLeft_toRightOf="@id/weekSixth"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_margin="5dp"/>
+
+-->
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

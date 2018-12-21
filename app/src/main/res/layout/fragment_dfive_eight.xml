@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.DfiveEightFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        tools:ignore="HardcodedText"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="INVOCATION FOR ANGUISH (D058)"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:text="لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِيْنَ ."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:gravity="left"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:text="D058- Laa ‘ilaha ‘illaa ‘Anta subhaanaka ‘innee kuntu minadh-dhaalimeen."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="There is npone worthy of worship but You, glory is to You. Surely, I was among the wrongdoers."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="[At-Tirmithi 5/529. Al-Hākim declared it authentic and Ath-Thahabi agreed with him 1/505. See also Al-Albāni, Sahih At-Tirmithi 3/168."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 3/4"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+   <!-- <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_next" />
+-->
+
+</LinearLayout>

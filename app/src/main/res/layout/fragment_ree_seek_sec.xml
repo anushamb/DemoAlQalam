@@ -1,0 +1,197 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.ReeSeekSecFragmnet">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:padding="16dp"
+       android:layout_width="match_parent"
+       android:background="@color/colorWhite"
+       android:layout_height="wrap_content">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="iii.Allah’s Messenger (P.B.U.H) said: Whoever says:  (D156)"
+           android:textColor="@color/colorPrimary"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_heading_new"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_arabic_size_new"
+           android:textAlignment="center"
+           android:textColor="@color/colorList"
+           android:gravity="center"
+           android:text="أَسْتَغْفِرُ اللّٰهَ  الَّذِيْ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ وَ أَتُوْبُ إِلَيْهِ."
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="D156- ‘Astaghfirullaahal-‘Adheemal-lathee laa ‘ilaaha ‘illaa Huwal-Hayyul-Qayyoomu wa ‘atoobu ‘ilayhi."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="I seek the forgiveness of Allah the Mighty, Whom there is none worthy of worship except him, the Living, the Eternal, and I repent to Him, Allah will forgive him if he has deserted the army’s ranks."
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[Abu Dawud 2/85, At-Tirmithi 5/569, and Al-Hākim who declared it authentic and Ath-Thahabi agreed with him 1/511. Al-Albāni graded it authentic in Sahih At-Tirmithi 3/192. See also Jāmi’ul-‘Usool li-‘Ahadith Ar-Rasool 4/389-90 checked by Al-Arna’ut.]"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="iv.	Allah’s Messenger (P.B.U.H) said: “The closest that the Lord comes to the slave is in the last portion of the night. So, if you are able to be among those who remember Allah in this hour, then be among them.”"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[At-Tirmithi, An-Nasā’I 1/279 and Al-Hākim. See also Al-Albāni, Sahih At-Tirmithi 3/183, and also Jāmi’ul-‘Usool with Al-Arna’ut’s checking 4/144.]"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="v.	Allah’s Messenger (P.B.U.H) said: “The closest that the slave comes to his Lord when he is prostrating, so invoke Allah much (in prostration)."
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="vi.	Allah’s Messenger (P.B.U.H) said: “It is a heavy thing for my heart if I do not seek Allah’s forgiveness a hundred times a day.”'"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[Muslim 4/2075. Ibn ‘Athir explains that the Prophet (P.B.U.H) was always vigilant in his remembrance and drawing near to Allah, and if he forgot to do any of what he normally did from time to time, or it slipped his mind, he felt as if he wronged himself and so he would begin to seek the forgiveness of Allah. See Jāmi’ul-‘Usool 4/386.]"
+           tools:ignore="HardcodedText" />
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Page 2/2"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textColor="@color/colorPrimary"
+           tools:ignore="HardcodedText,RtlHardcoded"/>
+
+<!--
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="wrap_content"
+           android:layout_gravity="start"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_move_back"
+           tools:ignore="ContentDescription" />
+-->
+
+
+   </LinearLayout>
+
+</ScrollView>

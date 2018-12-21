@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.duafrag.ChildDnineFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invocations for a child in the Funeral prayer (D079) "
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ أَعِذْهُ مِنْ عَذَابِ الْقَبْرِ( وَاِنْ قَالَ):اَللّٰهُمَّ  اجْعَلْهُ فَرَطًا وَذُخْرًا لِوَالِدَيْهِ, وَ شَفِيْعًا مُجَابًا.اَللّٰهُمَّ ثَقِّلْ بِهِ مَوَازِيْنَهمَا وَاَعْظِمْ بِهِ اُجُوْرَهُمَا, وَاَلْحِقْهُ بِصَالِـحِ الْمُؤْمِنِيْنَ,وَاجْعَلْهُ فِي كَفَالَةِ اِبْرَاهِيْمَ, وَقِهِ بِرَحْمَتِكَ عَذَابَ الْجَحِيْمِ, وَ اَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ,وَ اَهْلًا خَيْرًا مِنْ اَهْلِهِ,اَللّٰهُمَّ  اغْفِرْ لِاَسْلَافِنَا,وَاَفْرَاطِنَا,وَمَنْ سَبَقَنَا بِالْاِيْمَانِ."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D079-	Allaahumma ‘a’ith-hu min ‘athaa bil-qabri. [or say:] Allaahum-maj’alhu faratan wa thukhran liwaalidayhi, wa shafee’an mujaaban. Allaahumma thaqqil bihimawaazeenahumaa wa ‘a’dhimbihi ‘ujoorahumaa, wa ‘alhiqhu bisaalihil-mu’mineena, waj’alhu fee kafaalati ‘Ibraaheema, wa qihi birahmatika ‘athaabal-jaheemi, wa ‘abdilhu daaran khayran min daarihi, wa ‘ahlan khayran min ‘ahlihi, Allaahum-maghfir li’aslaafinaa, wa ‘afraatinaa wa man sabaqanaa bil’eemaan."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah, protect him from the torment of the grave. [It is also good to say:] O Allah, make him a precursor, a forerunner and a treasure for his parents and an answered intercessor. O Allah, make him weigh heavily in their scales (of good) and magnify their reward. Make him join the righteous of the believers. Place him in the care of Ibrahim. Save him by Your mercy from the torment of Hell. Give him a home better than his home and a family better than his family. O Allah, forgive those who have gone (i.e. passed away) before us, our children lost (by death), and those who have preceded is in Faith."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[Ibn Qudāmah, Al-Mughni 3/416 and Ad-Duroosul-Muhimmah li-‘Aammatil-‘Ummah, pg. 15, by Shaikh ‘Abdul-‘Aziz bin Bāz.]"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/2"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+     <!--   <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+    </LinearLayout>
+</ScrollView>

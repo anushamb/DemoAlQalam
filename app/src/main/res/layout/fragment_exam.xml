@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/colorBackground"
+    tools:context="com.frocerie.demoalqalam.FragementExam">
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/first"
+      android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First - term"
+        android:textAllCaps="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+
+
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/second"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second - Term"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorList"/>
+
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:id="@+id/third"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third - Term"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+   <!-- <TextView
+        android:id="@+id/first"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+
+        android:text="First - term"
+
+        android:layout_above="@+id/third"
+        android:layout_alignRight="@+id/second"
+        android:layout_alignEnd="@+id/second"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="250dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_height="60dp"
+
+        android:text="Second - Term"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="250dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/second"
+        android:layout_alignLeft="@+id/second"
+        android:layout_alignRight="@+id/second"
+        android:layout_alignStart="@+id/second"
+        android:layout_below="@+id/second"
+
+        android:text="Third - Term"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/second"
+        app:layout_constraintVertical_bias="0.29" />-->
+
+
+</LinearLayout>

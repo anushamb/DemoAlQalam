@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DtwntyThrFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_text_size"
+        android:text=" Allah’s Remembrance For Morning And Evening (D023)"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/duaTextColor"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:text="سُبْحَانَ اللّٰهِ  وَ بِحَمْدِهِ: عَدَدَ خَلْقِهِ  ,  و رِضَا نَفْسِهِ ,  و زِنَةَ عَرْشِهِ و مِدَادَ كَلِمَاتِهِ."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/duaTextColor"
+        android:gravity="left"
+        android:text="D023-	Subhaanallaahi wa bihamdihi: ‘Adada khalqihi, wa ridhaa nafsihi, wa zinata ‘arshihi wa midaada kalimaatihi."
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/duaTextColor"
+        android:gravity="left"
+        android:text="Glory is to Allah and praise is to Him, by the multitude of His creation, by His Pleasure, by the weight of His throne, and by the extent of His Words. (Recite three times upon rising in the morning.)"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 19/26"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="right"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+<!--    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_next"
+        tools:ignore="ContentDescription" />-->
+
+</LinearLayout>

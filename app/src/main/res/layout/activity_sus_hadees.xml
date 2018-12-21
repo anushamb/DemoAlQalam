@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/week_dim"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.materialhadees.SusHadeesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUSPICION"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abu Hurayrah(R.A) that the Messenger of Allah (blessings and peace of Allah be upon him) said: “Beware of suspicion, for suspicion is the falsest of speech. Do not seek out one another’s faults; do not spy on one another; do not compete with one another; do not envy one another; do not hate one another; do not turn away from one another. Be, O slaves of Allah, brothers.”"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تَبَاغَضُوا وَلَا تَدَابَرُوْا وَكُوْنُوْا عِبَادَ اللّٰهِ إِخْوَانًا"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

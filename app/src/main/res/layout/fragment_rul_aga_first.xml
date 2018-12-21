@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.RulAgaFirstFragment">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:background="@color/colorWhite"
+     android:padding="16dp">
+
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Against The Oppression Of Rulers (D160)"
+      android:textColor="@color/colorPrimary"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:textStyle="bold"
+      android:textSize="@dimen/dua_heading_new"
+      tools:ignore="HardcodedText" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textSize="@dimen/dua_arabic_size_new"
+      android:textAlignment="center"
+      android:textColor="@color/colorList"
+      android:gravity="center"
+
+      android:text="اَللّٰهُمَّ رَبَّ السَّمٰوَاتِ السَّبْعِ , وَرَبِّ الْعَرْشِ الْعَظِيْم ، كُنْ لِي جَارًا مِنْ فُلَان بْنِ فُلَانٍ ,  وَاَحْزَابِهِ مِنْ خَلَائِقِكَ  , أَنْ يَفْرُطَ عَلَيَّ أَحَدٌ مِنْهُمْ أَوْ يَطْغَى , عَزَّ جَارُكَ , وَجَلَّ ثَنَاؤُكَ , وَلَا إِلَهَ إِلَّا أَنْتَ ."
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="left"
+      android:textColor="@color/colorList"
+      android:textAppearance="@android:style/TextAppearance"
+      android:textSize="@dimen/dua_arabic_eng_new"
+      android:text="D160-Allaahumma-Rabbas-samaawaatis-sab’I,wa Rabbal-‘Arshil-‘Adheem, kun lee jaaran min [here you mention the person’s name], wa ‘ahzaabihi  min khalaa’iqika, ‘an yafruta ‘alayya ‘ahadun minhum ‘aw yatghaa, ‘azza jaaruka, wa jalla thanaa’uka, wa laa ‘ilaaha ‘illaa ‘Anta."
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="left"
+      android:textColor="@color/colorList"
+      android:textAppearance="@android:style/TextAppearance"
+      android:textSize="@dimen/dua_arabic_eng_new"
+      android:text="O Allah, Lord of the seven heavens, Lord of the Magnificent Throne, be for me a support against [such and such a person] and his helpers from among your creatures, lest any of them abuse me or do me wrong. Mighty in Your patronage and glorious are Your praises. There is none worthy of worship but You."
+      tools:ignore="HardcodedText" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Page 1/2"
+      android:textStyle="bold"
+      android:gravity="right"
+      android:textColor="@color/colorPrimary"
+      tools:ignore="HardcodedText,RtlHardcoded"/>
+
+<!--  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_gravity="end"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_move_next"
+      tools:ignore="ContentDescription" />-->
+
+
+ </LinearLayout>
+
+
+
+
+</ScrollView>

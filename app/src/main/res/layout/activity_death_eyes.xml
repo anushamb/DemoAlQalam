@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+
+    tools:context="com.frocerie.demoalqalam.dua.DeathEyesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorPrimary"
+            android:text="Invocation For Closing The Eyes Of The Dead (D074) "
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="اَللّٰهُمَّ اغْفِرْ لِي لِفُلَانٍ(بِاِسْمِهِ)  وَارْفَعْ دَرَجَتَهُ فِى الْمَهْدِيِّيْنَ , وَاخْلُفْهُ فِى عَقِبِهِ فِى الْغَابِرِيْنَ , وَاغْفِرْ لَنَا وَلَهُ يَارَبَّ الْعَالَمِيْنَ ,وَافْسَحْ لَهُ فِى قَبْرِهِ وَنَوِّرْ لَهُ فِيهِ "
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D074- Allaahummaghfir li (name of the person) warfa’ darajatahu fil-mahdiyyeena, wakhlufhu fee ‘aqibihi fil-ghaabireena, waghfir-lanaa wa lahu yaa Rabbal-‘aalameena, wafsah lahu fee qabrihi wa nawwir lahu feehi."/>
+
+        <!--NotSupport-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah, forgive [name of the person] and elevate his station among those who are guided. Send him along the path of those who came before, and forgive us and him, O Lord of the worlds. Enlarge for him his grave and shed light upon him in it."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

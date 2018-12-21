@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DthrtyFragment">
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Allah’s Remembrance For Morning And Evening (D013)"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_text_size"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textColor="@color/duaTextColor"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:text="اَللّٰهُمَّ مَا أَصْبَحَ بِى مِنْ نِعْمَةٍأَوْ بِأَحَدٍ مِنْ خَلْقِكَ  فَمِنْكَ وَحْدَكَ لَا شَرِيْكَ لَكَ , فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textColor="@color/duaTextColor"
+        android:textAppearance="@android:style/TextAppearance"
+        android:gravity="left"
+        android:text="D013-	Allahumma maa ‘asbaha bee min ni’matin ‘aw bi’ahadin min khalqika faminka wahdaka laa shareeka laka, falakal-hamdu wa lakash-shukru."
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/duaTextColor"
+        android:gravity="left"
+        android:text="O Allah, whatever blessing has been received by me or anyone of Your creation[1] is from You alone, You have no partner. All praise is for you and thanks is to You.[2]"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[1] When you say this in the evening, you should say: Allaahumma maa ‘amsaa bee…” “O Allah, as I… enter this evening…” "
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[2] Whoever recites this in the morning, has completed his obligation to thank Allah for that day; and whoever says it in the evening, has completed his onligation for that night. Abu Dawud 4/318, An-Nasā’i ‘Amalul-Yawm wal-Laylah (no. 7), Ibn As-Sunni (no. 41), Ibn Hibban (no.2361). Its chain of transmission is good (Hasan), Ibn Bāz, p.24.]"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPage 9/26"
+            android:textColor="@color/colorPrimary"
+            android:gravity="right"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />
+-->
+    </LinearLayout>
+
+</ScrollView>

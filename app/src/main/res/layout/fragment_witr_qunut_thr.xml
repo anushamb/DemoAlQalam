@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.WitrQunutThrFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Invocations For Qunut In The Witr prayer (D214)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text=" اللَّهُمَّ إِيَّاكَ نَعْبُدُ ، وَلَكَ نُصَلِّى وَنَسْجُدُ ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ ، نَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ ، إِنَّ عَذَابَكَ بِالْكَافِرِينَ مُلْحَقٌ اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ ، وَنُثْنِى عَلَيْكَ الْخَيْرَ وَلاَ نَكْفُرُكَ ، وَنُؤْمِنُ بِكَ وَنَخْضَعُ لَكَ ، وَنَخْلَعُ مَنْ يَكْفُرُكَ."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="D214-	Allaahumma ‘iyyaaka na’budu, wa laka nusallee wa nasjudu, wa ‘ilayka nas’aa wa nahfidu, narjoo rahmataka, wa nakhshaa ‘athaabaka, ‘inna ‘athaabaka bikaafireena mulhaq. Allaahumma ‘innaa nasta’eenuka, wa nastaghfiruka, wa nuthnee ‘alaykal-khayr, wa laa nakfuruka, wa nu’minu bika, wa nakhdha’u laka, wa nakhla’u man yakfuruka."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="O Allah, You alone do we worship and to You we pray and bow down to prostrate. To You we hasten to worship and to serve. Our hope is for Your mercy and we fear Your punishment. Surely, Your punishment of the disbelievers is at hand. O Allah, we seek Your help and Your forgiveness, and praise You beneficiently. We do not deny You and we believe in You. We surrender to You and renounce whoever disbelieves in You."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[Al-Bayhaqi graded its chain authentic in As-Sunan Al-Kubrā. Al-Albāni said in ‘Irwā’ul-Ghalīl 2/170 that its chain is authentic as a statement of ‘Umar.] "
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_back"
+            tools:ignore="ContentDescription" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Page 3/3"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    </LinearLayout>
+
+</ScrollView>

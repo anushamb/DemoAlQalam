@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/week_dim"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.materialhadees.ArrogHadeesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARROGANCE IN DRESSING"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amar bin Shuaib(R.A) reports from his father who reports from his grandfather that the Prophet Muhammad(s.a.w) said: “Put on any dress which does not combine extravagance and arrogance.”"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="سَلَّمَ : “اِلْبَسُوْا مَا لَمْ يـُخَالِطْ إِسْرَافًا وَلَا مُخِيْلَة"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

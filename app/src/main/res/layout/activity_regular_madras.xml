@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.batchphase.RegularMadrasActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/tvReg"
+                android:textColor="@color/colorHidline"
+                android:text="@string/regular"
+                android:textSize="16sp"
+                android:paddingLeft="2dp"
+                android:gravity="clip_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:textColor="@color/colorHidline"
+                android:text="@string/time"
+                android:textSize="15sp"
+                android:paddingLeft="2dp"
+                android:gravity="fill_vertical"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+            <TextView
+                android:id="@+id/tvSix"
+                android:text="- 6:00AM to 7:00AM"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- 4:30PM to 5:30PM"
+                android:id="@+id/tvFour"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- 5:00PM to 6:30PM"
+                android:id="@+id/tvfiv"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- 5:30PM to 7:00PM"
+                android:id="@+id/tvFive"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvSub"
+                android:textColor="@color/colorHidline"
+                android:text="@string/sub"
+                android:textSize="15sp"
+                android:paddingLeft="2dp"
+                android:gravity="fill_vertical"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+            <TextView
+                android:id="@+id/tvHi"
+                android:text="- Hifd"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- Tajweed"
+                android:id="@+id/tvtaj"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- Dua"
+                android:id="@+id/tvDa"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- Islamiyat (Aqeedah, Fiqh, Akhlaq, Tareekh)"
+                android:id="@+id/tvIsl"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- Arabic"
+                android:id="@+id/tvAr"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="- Urdu"
+                android:id="@+id/tvUr"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="- Activity (Hadees, Quiz, Craft, Tilawat, Elocution)"
+                android:id="@+id/tvAct"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvActivi"
+                android:textColor="@color/colorHidline"
+                android:text="@string/activites"
+                android:textSize="15sp"
+                android:paddingLeft="2dp"
+                android:gravity="fill_vertical"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+            <TextView
+                android:text="i.Sports Meet"
+                android:id="@+id/sport"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="ii.Visiting The Poor"
+                android:id="@+id/visit"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="iii.Cleanliness Campaign	"
+                android:id="@+id/clean"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="iv.A Helping Hand For The Orphans"
+                android:id="@+id/help"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="v.HAND WRITING COMPETITION	"
+                android:id="@+id/hand"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="vi.QIRA’T COMPETITION"
+                android:id="@+id/qirt"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="vii.CRAFT COMPETITION"
+                android:id="@+id/craf"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="viii.SPEECH/ELOCUTION COMPETITION"
+                android:id="@+id/sph"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="ix.ANNUAL TRIP "
+                android:id="@+id/trip"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="x.ANNUAL DAY"
+                android:id="@+id/annDay"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="xi.STUDENTS GET-TOGETHER"
+                android:id="@+id/getTo"
+                android:textColor="@color/colorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

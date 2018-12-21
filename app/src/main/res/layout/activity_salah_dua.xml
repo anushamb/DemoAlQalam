@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.SalahActivityDua">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:background="@color/colorWhite"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALAH"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:id="@+id/textView6"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"/>
+
+
+        <Button
+            android:id="@+id/tvSalWu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.WUDU"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true"
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/tvSalTa"
+            android:layout_alignStart="@+id/tvSalTa"
+            android:layout_alignRight="@+id/tvSalTa"
+            android:layout_alignEnd="@+id/tvSalTa" />
+
+
+        <Button
+            android:id="@+id/tvSalTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.TAYAMMUM"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvSalWu"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+
+        <Button
+            android:id="@+id/tvSalAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Adhaan"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvSalTa"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Salah"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvSalAd"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSalRu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Ruku"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSal"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSalQa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Qaumah"
+            android:layout_marginTop="20dp"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalRu"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSalSu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.Sujood"
+            android:layout_marginTop="20dp"
+
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalQa"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSalBe"
+            android:text="8.Between two Sujood"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalSu"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/tvSalTha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.Thashahud"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalBe"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSalAft"
+            android:text="10.Dua afterSalah"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalTha"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvSalMy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11.Mayyat Salah"
+            android:onClick="onClick"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:layout_below="@+id/tvSalAft"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"
+           />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+<!--
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvSalWu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->WUDU"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/colorList"
+
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+        android:id="@+id/tvSalTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->TAYAMMUM"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Adhaan"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Salah"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalRu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Ruku"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalQa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Qaumah"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalSu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Sujood"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalBe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Between two Sujood"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalTha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Thashahud"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalAft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Dua afterSalah"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvSalMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Mayyat Salah"
+        android:textStyle="italic"
+        android:textColor="@color/colorList"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+-->
+
+
+
+
+
+
+</ScrollView>

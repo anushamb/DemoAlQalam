@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.TravelSayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="What To Say Upon Returning From A Journey (D210)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_heading_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="From every elevated point say Allaahu ‘Akbar (Allah is the Most Great) three times and then recite:"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="لاَ إِلهَ إِلاَّ اللّٰهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، آيِبُوْنَ تَائِبُوْنَ عَابِدُوْنَ، لِرَبِّنَا حَامِدُوْنَ، صَدَقَ اللّٰهُ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ."
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="D210- Laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu, lahul-mulku wa ahul-hamdu wa huwa ‘alaa kulli shay’in Qadeer. ‘Aa’iboona, taa’iboona, ‘aabidoona, lirabbinaa haamidoona, sadaqallaahu wa’dahu, wa nasara ‘abdahu, wa hazamal-‘ahzaaba wahdahu."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is able to do all things. We return repentant to our Lord, worshipping our Lord, and praising our Lord. He fulfilled His Promise, He aided His slave, and He alone defeated the Confederates."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="left"
+            android:text="[Al-Bukhāri 7/163, Muslim 2/980. The Prophet (P.B.U.H) used to say this when returning from a campaign or from Hajj.]"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

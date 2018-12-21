@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.gall_youtube.GallYouTubeActivity">
+
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/ViewGall"
+        android:layout_below="@+id/youtube_view"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoHead"
+        android:textStyle="bold"
+        android:text="Video List"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoHead"
+        android:textStyle="bold"
+        android:text="Video List"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />-->
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/videoHead"
+        android:id="@+id/viewHead"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewHead"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical"
+        android:layout_marginRight="16dp"
+        android:id="@+id/recycler_gall">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

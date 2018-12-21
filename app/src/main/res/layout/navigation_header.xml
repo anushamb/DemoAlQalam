@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imV"
+        android:background="@drawable/logo_t_alqalam"
+        tools:ignore="ContentDescription"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+     <!--<TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="AlQalam"
+         android:textColor="@color/black"
+         android:textStyle="bold"
+         android:textSize="16sp"
+         android:layout_marginLeft="39dp"
+         tools:ignore="HardcodedText"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/imV"
+         android:layout_toEndOf="@+id/imV"
+         android:layout_marginStart="39dp" />-->
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imV"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"/>
+
+
+</RelativeLayout>

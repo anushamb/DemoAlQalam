@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DfvftynnFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText"
+            android:text="Allah’s Remembrance For Morning And Evening (D015)"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_text_size"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:gravity="left"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="حَسْبِيَ اللّٰهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيْمِ."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:gravity="left"
+            android:textColor="@color/duaTextColor"
+            android:text="D015-	Hasbiyallahu laa ‘ilaaha ‘illaa Huwa ‘alayhi tawakkaltu wa Huwa Rabbul-‘Arshil-‘Adheem"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:gravity="left"
+            android:textColor="@color/duaTextColor"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="Allah is sufficient for me. There is none worthy of worship but Him. I have placed my trust in Him, He is Lord of the Majestic Throne. (Recite seven times)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:gravity="left"
+            android:textColor="@color/duaTextColor"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="[Allah will grant whoever recites this seven times in the morning or evening whatever he desires from this world or the next, Ibn As-Sunni (no. 71), Abu Dawud 4/321. Both reports are attributed directly to the Prophet (P.B.U.H) (Marfu, The chain of transmission is sound (Sahih). Ibn As-Sunni.] "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 11/26"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+      <!--  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

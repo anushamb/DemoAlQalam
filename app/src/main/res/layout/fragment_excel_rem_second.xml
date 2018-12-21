@@ -1,0 +1,409 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.frocerie.demoalqalam.ExcelRemSecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        tools:ignore="HardcodedText"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Excellence Of Remembering Allah(D037 - D041)"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_text_size"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_text_size"
+            android:textStyle="bold"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="The Excellence Of Remembering Allah (D037) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="vii. Allah’s Messenger (P.B.U.H) said, “O Abdullah bin Qais, should I not point you to one of the treasures of Paradise?” I said, “Yes, O Messenger of Allah.” So he told me to say:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/duaTextColor"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="لَا حَوْلَ وَ لَا قُوَّةَ إِلَّا بِاللّٰهِ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D037-Laa hawla wa laa quwwata ‘illa billaah."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="There is no power and no might except by Allah."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[Al-Bukhari, cf. Al-Asqalani, Fathul-Bari 11/213, Muslim 4/2076]"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_text_size"
+            android:textStyle="bold"
+            android:textAppearance="@android:style/TextAppearance"
+            android:gravity="left"
+            android:text="The Excellence Of Remembering Allah (D038) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="viii. Allah’s Messenger (P.B.U.H) said: The most beloved words to Allah are four:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="سُبْحَانَ اللّٰهِ ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D038-Subhaanallaah."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="Glorified is Allah,"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_text_size"
+            android:gravity="left"
+            android:text="The Excellence Of Remembering Allah (D039) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text=" وَالْحَمْدُ لِلّٰهِ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D039- Walhamdu lillaah."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="And the praise is for Allah,"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_text_size"
+            android:gravity="left"
+            android:text="The Excellence Of Remembering Allah (D040) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_text_size"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:textAlignment="center"
+            android:text="وَلَا إِلَهَ إِلَّااللّٰهُ  ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D040- Wa laa ‘ilaaha ‘illallaah."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="And there is none worthy of worship but Allah,"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_text_size"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="The Excellence Of Remembering Allah (D041) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="وَاللّٰهُ أَكْبَرُ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D041- Wallaahu ‘Akbar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="Allah is the Most Great."/>
+
+      <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 2/4"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+        <!--   <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_gravity="end"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_move_next" />-->
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

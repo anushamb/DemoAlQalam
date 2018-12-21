@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DelevFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        tools:ignore="ScrollViewSize">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:layout_marginTop="10dp"
+            android:text="Allah’s Remembrance For Morning And Evening (D011)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_text_size"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textColor="@color/duaTextColor"
+        android:gravity="left"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="اَللّٰهُمَّ أَنْتَ رَبِّى لاَ إِلَهَ إِلاَّ أَنْتَ ,  خَلَقْتَنِى وَأَنَا عَبْدُكَ , وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ , أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ  وَأَبُوْءُ بِذَنْبِى فَاغْفِرْ لِى فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textColor="@color/duaTextColor"
+        android:textAppearance="@android:style/TextAppearance"
+        android:gravity="left"
+        android:text="D011-	Allahumma ‘Anta Rabbee laa ‘ilaaha ‘illaa ‘Anta khalaqtanee wa’anna ‘abduka, wa ‘anaa ‘alaa ‘ahdika wa wa’dika mas-taat’tu, ‘a’oothu bika min sharri maa sana’tu, ‘aboo’u laka bini’matika ‘alayya, wa ‘aboo’u bithanbee faghfir lee fa’innahu laa yaghfiruththunooba ‘illaa ‘Anta. "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textColor="@color/duaTextColor"
+        android:textAppearance="@android:style/TextAppearance"
+        android:gravity="left"
+        android:text="O Allah, You are my Lord, there is none worthy of worship but You. You created me and I am your slave. I keep Your covenant, and my pledge to You so far as I am able. I seek refuge in You from the evil of what I have done. I admit to my misdeeds. Forgive me, for there is none who may forgive sins but You."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textColor="@color/duaTextColor"
+            android:textAppearance="@android:style/TextAppearance"
+            android:gravity="left"
+            android:text="[Whoever recites this conviction in the evening and dies during that night shall enter Paradise, and whoever recites it with conviction in the morning and dies during that day shall enter Paradise, Al-Bukhāri 7/150. Other reports are in An-Nasā’i and At-Tirmithi.]  "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 7/26"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+ <!--       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+    </LinearLayout>
+
+</ScrollView>

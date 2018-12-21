@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.examhut.model.ListOfClassPortionActivity">
+    <RelativeLayout
+        android:id="@+id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        tools:ignore="UnknownId,UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/portion_lkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_lkg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionLkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_lkg"
+            android:layout_alignEnd="@+id/portion_lkg"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/portion_ukg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_lkg"
+            android:background="@drawable/effect_ukg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionUkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_ukg"
+            android:layout_alignEnd="@+id/portion_ukg" />
+
+        <Button
+            android:id="@+id/portion_first"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_first"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_ukg"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnPortionFirst"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_first"
+            android:layout_alignEnd="@+id/portion_first" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/second_badge_relative_layout"
+        android:layout_below="@id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/portion_second"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_second"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionSecond"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/portion_second"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/portion_third"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_second"
+            android:background="@drawable/effect_third"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionThird"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_third"
+            android:layout_alignEnd="@+id/portion_third" />
+
+        <Button
+            android:id="@+id/portion_forth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_forth"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_third"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnPortionForth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_forth"
+            android:layout_alignEnd="@+id/portion_forth" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/third_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/second_badge_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <Button
+            android:id="@+id/portion_fifth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_fifth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionFifth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/portion_fifth"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/portion_sixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_fifth"
+            android:background="@drawable/effect_sixth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnPortionSixth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_sixth"
+            android:layout_alignEnd="@+id/portion_sixth" />
+
+        <Button
+            android:id="@+id/portion_seventh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_seventh"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_sixth"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnPortionSeventh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_seventh"
+            android:layout_alignEnd="@+id/portion_seventh" />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/third_badge_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <Button
+            android:id="@+id/portion_thajweedh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_thajweedh"/>
+        <Button
+            android:id="@+id/btnPortionThajweed"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/portion_thajweedh"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/portion_hifdh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_hifdh"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/portion_thajweedh"/>
+
+
+        <Button
+            android:id="@+id/btnPortionHifdh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/portion_hifdh"
+            android:layout_alignEnd="@+id/portion_hifdh" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

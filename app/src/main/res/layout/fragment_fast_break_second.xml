@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.FastBreakSecondFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        android:text="Breaking the fast (D104)"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+
+        android:text="اَللّٰهُمَّ  إِنِّي أَسْأَلُكَ بِرَحْمَتِكَ الَّتِيْ وَسِعْتِ كُلَّ شَيْءٍ أَنْ تَغْفِرْ لِي "
+        tools:ignore="HardcodedText" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="D104-	Allaahumma ‘inne as’aluka birahmatikal-latee wasi’at kulla shay’in ‘an taghfirra lee."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="O Allah, I ask You by Your mercy, which encompasses all things, that You forgive me."
+        tools:ignore="HardcodedText" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="left"
+     android:textColor="@color/colorList"
+     android:textAppearance="@android:style/TextAppearance"
+     android:textSize="@dimen/dua_arabic_eng_new"
+     android:text="[Ibn Mājah 1/557 from a supplication of Abdullah bin ‘Amr. Al-Hāfidh graded it as good in his checking of An-Nawawi’s Kitābul-‘Athkār. See Sharhul-‘Athkār 4/342.]"
+     tools:ignore="HardcodedText" />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Page 2/2"
+     android:textStyle="bold"
+     android:gravity="right"
+     android:textColor="@color/colorPrimary"
+     tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+</LinearLayout>

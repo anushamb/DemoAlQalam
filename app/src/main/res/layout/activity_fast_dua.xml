@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.FastActivityDua">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAST"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/tvFastBrek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Breaking the fast (D103 - D104)"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/tvFastInvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.For a family who invites you to break your fast with them (D105)."
+        android:layout_below="@+id/tvFastBrek"
+        android:layout_alignLeft="@+id/tvFastBrek"
+        android:layout_alignStart="@+id/tvFastBrek"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvFastFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Someone who offers you food  when you are fasting, which you decline (D106)"
+        android:layout_below="@+id/tvFastInvi"
+        android:layout_alignLeft="@+id/tvFastInvi"
+        android:layout_alignStart="@+id/tvFastInvi"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/tvFastSom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.When you are fasting and someone is rude to you (D107)"
+        android:layout_below="@+id/tvFastFood"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true" />
+
+
+    <!--<TextView
+        android:textColor="@color/colorList"
+        android:id="@+id/tvFastBrek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Breaking the fast (D103 - D104)"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvFastInvi"
+        android:textColor="@color/colorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- For a family who invites you to break your fast with them (D105)."
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvFastFood"
+        android:textColor="@color/colorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Someone who offers you food when you are fasting, which you decline (D106)"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvFastSom"
+        android:textColor="@color/colorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- When you are fasting and someone is rude to you (D107)"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+-->
+
+
+</RelativeLayout>

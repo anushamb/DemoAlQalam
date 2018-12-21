@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DsevenFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Allah’s Remembrance For Morning And Evening (D007)"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_heading_new"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/dua_arabic_text_size"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم
+قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِ-مِنْ شَرِّ مَا خَلَقَ-وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَ
+-وَمِنْ شَرِّ النَّفٰثٰتِ فِى الْعُقَدِ-وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ ."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="@string/dseven"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:text="@string/dseven_eng"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 3/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

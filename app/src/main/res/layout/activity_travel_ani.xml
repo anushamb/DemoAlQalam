@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+
+    tools:context="com.frocerie.demoalqalam.TravelAniActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            android:text="Riding In A Vehicle Or On An Animal (D201)"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:text=" بِسْمِ اللّٰهِ ,اَلْحَمْدُ لِلّٰهِ  (سُبْحَانَ الَّذِى سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ) اَلْحَمْدُ لِلّٰهِ ,اَلْحَمْدُ لِلّٰهِ ,اَلْحَمْدُ لِلّٰهِ,اَللّٰهُ أَكْبَرُ, اَللّٰهُ أَكْبَرُ,اَللّٰهُ أَكْبَرُ, سُبْحَانَكَ اَللّٰهُمَّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْلِي، فَاِنَّه لَا يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D201- Bismillaah, Alhamdu lillaah. Subhaanal-lathee sakhkhara lanaa haathaa wa maa kunnaa lahu muqrineen. Wa ‘innaa ‘ilaa Rabbinaa lamunqaliboon. Alhamdu lillaah, Alhamdu lillaah, Alhamdu lillaah, Allaahu ‘Akbar, Allaahu ‘Akbar, Allaahu ‘Akbar, subhaanakal-laahumma ‘innee dhalamtu nafsee faghfir lee, fa’innahu laa yaghfiruth-thunooba ‘illaa ‘Anta. "
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="With the Name of Allah. Praise is to Allah. Glory is to Him Who has provided this for us though we could never had it by our efforts. Surely, unto our Lord we are returning. Praise is to Allah. Praise is to Allah. Praise is to Allah. Allah is the Most Great. Allah is the Most Great. Allah is the Most Great. Glory is to You. O Allah, I have wronged my own soul. Forgive me, for surely none forgives sins but You."
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText"
+            android:text="[Abu Dawud 3/34, At-Tirmithi 5/501. See also Al-Albāni, Sahih At-Tirmithi 3/156.  "/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

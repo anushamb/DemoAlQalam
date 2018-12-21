@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.SleepActivityDua">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorWhite"
+        android:paddingLeft="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SLEEP"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/tvSleeBef"
+        android:text="1.Before sleeping (D167 - D181)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/tvSleeWake"
+        android:layout_alignStart="@+id/tvSleeWake"
+        android:layout_alignRight="@+id/tvSleeWake"
+        android:layout_alignEnd="@+id/tvSleeWake" />
+
+
+    <Button
+        android:id="@+id/tvSleeWake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.When you wake up (D182 - D185)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvSleeBef"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+
+    <Button
+        android:id="@+id/tvSleeNight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.If you stir in the night (D186)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvSleeWake"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvSleeDepr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Afraid to go to sleep or feel lonely and depressed (D187)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvSleeNight"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvSleenightm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.What to do if you have a bad dream or a nightmare (D188)"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:layout_below="@+id/tvSleeDepr"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+</RelativeLayout>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tvSleeBef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Before sleeping (D167 - D181)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSleeWake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- When you wake up (D182 - D185)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSleeNight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- If you stir in the night (D186)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSleeDepr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Afraid to go to sleep or feel lonely and depressed (D187)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSleenightm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- What to do if you have a bad dream or a nightmare (D188)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+-->
+
+
+
+</ScrollView>

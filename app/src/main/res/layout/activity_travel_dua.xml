@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.frocerie.demoalqalam.TravelActivityDua">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorWhite"
+        android:paddingLeft="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRAVEL"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"/>
+
+
+    <Button
+        android:id="@+id/tvTraFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.When your vehicle or mount begins to fail (D200)"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/tvTraAni"
+        android:layout_alignStart="@+id/tvTraAni"
+        android:layout_alignRight="@+id/tvTraAni"
+        android:layout_alignEnd="@+id/tvTraAni" />
+
+
+    <Button
+        android:id="@+id/tvTraAni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Riding in a vehicle or on an animal (D201)."
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvTraFail"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+
+    <Button
+        android:id="@+id/tvTraRet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.When Travelling - Upon returning (D202 - D203)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvTraAni"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvTraBeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.The traveler’s invocation for the one he leaves behind (D204)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvTraRet"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvTraRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="5.The resident’s invocations for the traveler (D205 - D206)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_below="@+id/tvTraBeh"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:id="@+id/tvTraJou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.Glorifying and magnifying Allah on the journey (D207)"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:layout_below="@+id/tvTraRes"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvTraDaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.The traveler’s invocation at dawn (D208)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_below="@+id/tvTraJou"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvTraInv"
+        android:layout_height="wrap_content"
+        android:text="8.Invocation for a layover (stopping along the way) on the journey (D209)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_below="@+id/tvTraDaw"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTraSay"
+        android:text="9.What to say upon returning from a journey (D210)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_below="@+id/tvTraInv"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    </RelativeLayout>
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvTraFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- When your vehicle or mount begins to fail (D200)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraAni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Riding in a vehicle or on an animal (D201)."
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraRet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- When Travelling - Upon returning (D202 - D203)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraBeh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- The traveler’s invocation for the one he leaves behind (D204)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- The resident’s invocations for the traveler (D205 - D206)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraJou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Glorifying and magnifying Allah on the journey (D207)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraDaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- The traveler’s invocation at dawn (D208)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraInv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Invocation for a layover (stopping along the way) on the journey
+(D209)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTraSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- What to say upon returning from a journey (D210)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

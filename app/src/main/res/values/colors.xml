@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#20297b</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHidline">#3E2723</color>
+    <color name="colorText">#1A237E</color>
+    <color name="colorList">#000000</color>
+    <color name="colorBackground">#FFFF</color>
+
+    <color name="videoAccent">#F48FB1</color>
+
+   <!-- <color name="duaTextColor">#424242</color>-->
+    <color name="duaTextColor">#000000</color>
+    <color name="ripple_effect_batch">#8BC34A</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorBatch">#C5E1A5</color>
+    <color name="colorripple">#40C4FF</color>
+    <color name="colorWeekly">#8D6E63</color>
+
+    <color name="ex_navigation">#B2EBF2</color>
+    <color name="videoColor">#03366f</color>
+    <!--<color name="videoColor">#7C4DFF</color>-->
+
+    <color name="colorFrag">#64B5F6</color>
+    <color name="black">#000000</color>
+    <color name="colorFeedBack">#7986CB</color>
+    <color name="red">#DD2C00</color>
+
+    <color name="navi_color">#4FC3F7</color>
+</resources>

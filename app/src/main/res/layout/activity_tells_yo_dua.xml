@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.TellsYoActivityDua">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="ALLAH"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/tvLov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:clickable="true"
+        android:gravity="left|center_vertical"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:text="1.I LOve you for the sake of Allah (D113)"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+    <Button
+        android:id="@+id/tvForg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLov"
+        android:layout_alignStart="@+id/tvLov"
+        android:layout_below="@+id/tvLov"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_effect_button"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:text="2.May Allah forgive you (D114)"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvBles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3,.May Allah bless you (D115)"
+            android:layout_below="@+id/tvForg"
+            android:layout_alignLeft="@+id/tvForg"
+            android:layout_alignStart="@+id/tvForg"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+</RelativeLayout>

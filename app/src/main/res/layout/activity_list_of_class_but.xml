@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:layout_centerVertical="true"
+    android:background="@drawable/testbg"
+    android:columnCount="3"
+    tools:context="com.frocerie.demoalqalam.examhut.ListOfClassButActivity">
+
+
+    <Button
+        android:id="@+id/lkg"
+        android:layout_marginTop="40dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/lkg"
+        />
+
+
+    <Button
+        android:id="@+id/ukg"
+        android:layout_marginTop="40dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/ukg"
+        />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/second"/>
+    <Button
+        android:id="@+id/third"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/third"/>
+    <Button
+        android:id="@+id/forth"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/forth"/>
+
+
+    <Button
+        android:id="@+id/fifth"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fifth"/>
+    <Button
+        android:id="@+id/sixth"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sixth"/>
+    <Button
+        android:id="@+id/seventh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/seventh"/>
+
+
+    <Button
+        android:id="@+id/thajweedh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/thajweedh"/>
+    <Button
+        android:id="@+id/hifdh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/hifdh"/>
+
+    <Button
+        android:id="@+id/batches"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/batches"/>
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_column="3"
+        android:layout_margin="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_row="0"
+        android:background="@drawable/first" />
+
+
+</GridLayout>

@@ -1,0 +1,103 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:layout_centerVertical="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/testbg"
+    android:columnCount="3"
+    tools:context="com.frocerie.demoalqalam.examhut.ExamPortionFragment">
+
+    <Button
+        android:id="@+id/lkg"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/lkg"
+        />
+
+
+    <Button
+        android:id="@+id/ukg"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ukg"
+        />
+
+    <Button
+        android:id="@+id/first"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/first"
+        />
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/second"/>
+    <Button
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/third"/>
+    <Button
+        android:id="@+id/forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/forth"/>
+
+
+    <Button
+        android:id="@+id/fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/fifth"/>
+    <Button
+        android:id="@+id/sixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/sixth"/>
+    <Button
+        android:id="@+id/seventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/seventh"/>
+
+
+    <Button
+        android:id="@+id/thajweedh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/thajweedh"/>
+    <Button
+        android:id="@+id/hifdh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/hifdh"/>
+
+    <Button
+        android:id="@+id/batches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/batches"/>
+
+
+
+</GridLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.AboutEx">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logbg"
+        tools:ignore="ScrollViewSize">
+
+
+        <TextView
+            android:id="@+id/tabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textColor="@color/colorList"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            tools:ignore="HardcodedText"
+            android:text="@string/aboutUs1"
+            android:id="@+id/tabt1"
+            android:textColor="@color/colorHidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tAlh"
+            tools:ignore="HardcodedText"
+            android:text="Alhamdulillah,"
+            android:textColor="@color/colorHidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/aboutUs2"
+            android:textColor="@color/colorHidline"
+            android:id="@+id/tabt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="@string/aboutUs3"
+            android:textColor="@color/colorHidline"
+            android:id="@+id/abt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutUs4"
+            android:id="@+id/tabt4"
+            android:textColor="@color/colorHidline"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutUs5"
+            android:id="@+id/tabt5"
+            android:textColor="@color/colorHidline"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="Adress :"
+            android:id="@+id/tvAdd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="@string/vaslane"
+            android:id="@+id/tVasl"
+            android:textStyle="bold"
+            android:textColor="@color/colorHidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/vasl"
+            android:id="@+id/tvasl"
+            android:textColor="@color/colorList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="@string/subash"
+            android:id="@+id/tSubsh"
+            android:textStyle="bold"
+            android:textColor="@color/colorHidline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/subas"
+            android:id="@+id/tsubah"
+            android:textColor="@color/colorList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call Us :"
+            tools:ignore="HardcodedText"
+            android:id="@+id/callUs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+        <TextView
+            android:text="@string/callUs"
+            android:id="@+id/callNum"
+            android:textColor="@color/colorList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

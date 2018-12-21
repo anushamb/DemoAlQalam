@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgthirdpage"
+    tools:context="com.frocerie.demoalqalam.toppers_activity.TalenDayActivity">
+
+    <ImageView
+        android:id="@+id/craftTalen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/crafbg"
+        android:onClick="onClick"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintVertical_bias="0.866"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/qeerathTalen"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qirabg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintVertical_bias="0.647"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/speechTalen"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/speechbg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintVertical_bias="0.541"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/nasheedTalen"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nasheedbg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/speechTalen"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintVertical_bias="0.535"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/writtingTalen"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/writingbg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.810"
+        app:layout_constraintVertical_bias="0.640"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/sportsTalen"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sportsbg"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintVertical_bias="0.868"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/logo_talens_middle"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.771"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+<!--    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/middbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        app:layout_constraintRight_toRightOf="parent" />-->
+
+
+</android.support.constraint.ConstraintLayout>

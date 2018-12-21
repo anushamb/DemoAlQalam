@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.HomeActivityDua">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/tvLev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Leaving the home (D130 - D131)."
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+
+    <Button
+        android:id="@+id/tvEnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Entering the home (D132)"
+        android:layout_below="@+id/tvLev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"/>
+
+
+
+</RelativeLayout>

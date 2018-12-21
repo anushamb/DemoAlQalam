@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+
+
+     <!--<ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/ivMonthImage"
+         android:src="@mipmap/ic_launcher"/>-->
+    <TextView
+        android:text="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:id="@+id/tvMonth"
+        android:textColor="@color/colorList"
+        />
+
+
+
+<!--    <TextView
+        android:id="@+id/tvMonth"
+        android:textSize="15sp"
+        android:textColor="@color/colorHidline"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="Text" />-->
+</LinearLayout>

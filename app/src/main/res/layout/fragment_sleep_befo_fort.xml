@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.SleepBefoFortFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/colorWhite"
+       android:orientation="vertical"
+       android:padding="16dp"
+       tools:ignore="ScrollViewSize">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before sleeping (D173-D174)"
+           android:textColor="@color/colorPrimary"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_heading_new"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before sleeping (D173)"
+           android:textStyle="bold"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_arabic_size_new"
+           android:textAlignment="center"
+           android:textColor="@color/colorList"
+           android:gravity="center"
+           android:text="اَللّٰهُمَّ اِنَّكَ خَلَقْتَ نَفْسِي وَ أَنْتَ تَوَفَّاهَا , لَكَ مَمَاتُهَا وَ مَحْيَاهَا , إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا , وَ إِنْ أَمَتَّهَا فَاغْفِرْ لها . اَللّٰهُمَّ إِنَِي أَسْأَلُكَ الْعَافِيَةَ."
+
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="D173-	Allaahumma ‘innaka khalaqta nafsee wa ‘Anta tawaffahaa, laka mamaatuhaa wa mahyaahaa, ‘in ‘ahyaytahaa fahfadhhaa, wa ‘in ‘amattahaa faghfir lahaa. Allaahumma ‘innee ‘as’alukal-‘aafiyata."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="O Allah, You have created my soul and You take it back. Unto You is its death and its life. If You give it life then protect it, and if You cause it to die then forgive it. O Allah, I ask You for strength."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           tools:ignore="HardcodedText"
+           android:text="[Muslim 4/2083 and Ahmad 2/79.]"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before Sleeping (D174)"
+           android:gravity="left"
+           android:textStyle="bold"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="اَللّٰهُمَّ قِنِى عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ."
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_arabic_size_new"
+           android:textAlignment="center"
+           android:textColor="@color/colorList"
+           android:gravity="center"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="D174- Allaahumma qinee ‘athaabaka yawma tab’atthu ‘ibaadaka."
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="O Allah, [1] save me from Your punishment on the Day that You resurrect Your slaves. (Recite three times.)[3]"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:ignore="HardcodedText"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[1] “When the Prophet (P.B.U.H) wanted to lie down to sleep, he used to place his right hand under his cheek and say…"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:ignore="HardcodedText"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[2] Abu Dawud 4/311. See also Al-Albāni, Sahih At-Tirmithi 3/143.]"/>
+      <!-- <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="wrap_content"
+           android:layout_gravity="end"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_move_next"
+           tools:ignore="ContentDescription" />-->
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Page 4/8"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textColor="@color/colorPrimary"
+           tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+
+   </LinearLayout>
+
+</ScrollView>

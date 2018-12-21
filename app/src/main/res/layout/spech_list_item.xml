@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="@dimen/specch_div"
+        android:layout_height="@dimen/specch_div"
+        android:id="@+id/ivSpeech"
+        android:paddingLeft="10dp"
+        android:src="@mipmap/ic_launcher"
+        android:paddingRight="10dp"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvspechhead"
+        android:textColor="@color/colorList"
+        android:paddingBottom="10dp"
+        android:text="Heading......"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivSpeech"
+        android:layout_toEndOf="@+id/ivSpeech"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tvSpeecDate"
+        android:textColor="@color/colorList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date........"
+        android:layout_alignParentRight="true"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/ivSpeech"
+        android:layout_toRightOf="@+id/ivSpeech"
+        android:layout_toEndOf="@+id/ivSpeech"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

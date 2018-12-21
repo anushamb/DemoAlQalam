@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.DevilActivityDua">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEVIL"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:id="@+id/tvDevilAga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Against the distractions of Satan during the prayer and recitation of the Quran (D086)"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/tvDevilAgai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Against  the  Devil  and  his  promptings  (D087)"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"
+        android:layout_below="@+id/tvDevilAga"
+        android:layout_alignLeft="@+id/tvDevilAga"
+        android:layout_alignStart="@+id/tvDevilAga"
+        android:layout_alignRight="@+id/tvDevilAga"
+        android:layout_alignEnd="@+id/tvDevilAga" />
+
+
+    <Button
+        android:id="@+id/tvDevilPlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.To foil the devil’s plots (D088)"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:textAllCaps="true"
+        android:layout_below="@+id/tvDevilAgai"
+        android:layout_alignLeft="@+id/tvDevilAgai"
+        android:layout_alignStart="@+id/tvDevilAgai"
+        android:layout_alignRight="@+id/tvDevilAgai"
+        android:layout_alignEnd="@+id/tvDevilAgai" />
+
+
+
+
+    <!--<TextView
+        android:id="@+id/tvDevilAga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Against the distractions of Satan during the prayer and recitation of the Quran (D086)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/colorList"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvDevilAgai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Against the Devil and his promptings (D087)"
+        android:gravity="center"
+        android:textColor="@color/colorList"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvDevilPlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- To foil the devil’s plots (D088)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+-->
+
+
+</RelativeLayout>

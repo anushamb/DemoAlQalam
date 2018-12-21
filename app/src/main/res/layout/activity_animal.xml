@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.AnimalActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANIMAL"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        tools:ignore="HardcodedText"
+        android:id="@+id/textView10" />
+
+
+    <Button
+        android:id="@+id/tvCrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textSize="16sp"
+        android:gravity="left|center_vertical"
+        android:text="1.Upon hearing the cock’s crow or the bray of a donkey (D053)"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+     />
+
+
+    <Button
+        android:id="@+id/tvDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCrow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textSize="16sp"
+        android:gravity="left|center_vertical"
+        android:text="2.Upon hearing a dog barking in the night (D054)"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"/>
+
+    <Button
+        android:id="@+id/tvSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect_button"
+        android:textSize="16sp"
+        android:gravity="left|center_vertical"
+        android:text="3.What to say when slaughtering or sacrificing an animal (D055)"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tvDog"
+        android:layout_alignRight="@+id/tvDog"
+        android:layout_alignEnd="@+id/tvDog"
+        android:layout_alignLeft="@+id/tvDog"
+        android:layout_alignStart="@+id/tvDog" />
+
+
+
+<!--
+    <TextView
+        android:id="@+id/tvCrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Upon hearing the cock’s crow or the bray of a donkey(D053)"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Upon hearing a dog barking in the night (D054)"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" - What to say when slaughtering or sacrificing an animal (D055)"
+        tools:ignore="HardcodedText" />-->
+
+</RelativeLayout>

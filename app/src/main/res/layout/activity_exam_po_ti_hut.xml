@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.examhut.ExamPoTiHutActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Exam Hut"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/ivExPo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/ripple_effect_button"
+        android:text="Portion"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_badge_portion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/item_count"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/ivExTime"
+        android:layout_alignRight="@+id/ivExPo"
+        android:layout_alignEnd="@+id/ivExPo" />
+
+
+    <Button
+        android:id="@+id/ivExTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ivExPo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/ripple_effect_button"
+        android:text="Time Table"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btn_badge_examtime"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/item_count"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        tools:ignore="HardcodedText"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/ivExTime"
+        android:layout_alignEnd="@+id/ivExTime" />
+
+
+</RelativeLayout>
+
+
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logbg"
+        tools:context="com.frocerie.demoalqalam.examhut.ExamPoTiHutActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Exam Hut"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/ivExPo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/portion_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.146"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.347"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageView
+            android:id="@+id/ivExTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/time_table_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.834"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.775"
+            tools:ignore="ContentDescription" />
+
+
+    </android.support.constraint.ConstraintLayout>-->

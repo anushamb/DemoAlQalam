@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DtwntySevenFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText"
+            android:text=" Allah’s Remembrance For Morning And Evening (D027)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_text_size"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textColor="@color/duaTextColor"
+            android:textAlignment="center"
+            android:gravity="left"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="اَللّٰهُمَّ صَلِّ وَ سَلِّمْ عَلَي نَبِيِّنَا مُحَمَّدٍ."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D027 - Allaahumma salli wa sallim ‘alaa Nabiyyinaa Muhammadin."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="O Allah, we ask for your peace and blessings upon our Prophet Muhammad. (Recite ten times)."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[The Prophet (P.B.U.H) said: Who recites blessings upon me ten times in the morning and ten times in the evening will obtain my intercession on the Day of Resurrection.” At-Tabarani reported this Hadith together with two chains of transmission. One of them is reliable (Jayyid). See Haythami’s Majma’uz-Zawa’id 10/120, and AlAlbani’s Sahihut-Targhib wat-Tarhib 1/273.] "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 23/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+ <!--       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,223 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.SleepBefoSexFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorWhite"
+       android:orientation="vertical"
+       android:padding="16dp">
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before sleeping (D177-D178)"
+           android:textColor="@color/colorPrimary"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_heading_new"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before sleeping (D177)"
+           android:textStyle="bold"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="اَللّٰهُمَّ رَبَّ السَّمٰوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ الْعَظِيمِ ,رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ ,فَالِقَ الْحَبِّ وَالنَّوَى ,وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ, وَالْفُرْقَانِ ,أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَىْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ .اَللّٰهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ, وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ ,وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ ,وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ ,اِقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ ."
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_arabic_size_new"
+           android:textAlignment="center"
+           android:textColor="@color/colorList"
+           android:gravity="center"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="D177-	Allaahumma Rabbas-samaawaatis-sab’I wa Rabbal-‘Arshil-’Adheem, Rabbanaa wa Rabba kulli shay’in, faaliqal-habbi wannawaa, wa munzilat-Tawraati wal-‘Injeeli, wal-Furqaani, ‘a’oothu bika min sharri kulli shay’in ‘Anta ‘aakhithun binaasiyatihi. Allaahumma ‘Antal-‘Awwalu falaysa qablaka shay’un, wa ‘Antal-‘Aakhiru falaysa ba’daka shay’un,wa ‘Antadh-Dhaahiru falaysa fawqaka shay’un, wa ‘Antal-Baatinu falaysa doonaka shay’un, iqdhi ‘annad-dayna wa ‘aghninaa minal-faqri."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="O Allah! Lord of the seven heavens and Lord of the Magnificent Throne. Our Lord and the Lord of everything. Splitter of the grain and the date-stone. Revealer of the Torah and the Injeel[1] and the Furqān (the Qur’an), I seek refuge in You from the evil of everything that You shall seize by the forelock.[2] O Allah You are the first and nothing has come before you, and You are the Last, and nothing may come after You. You are the Most High, nothing is above You and You are the Most Near and nothing is nearer than You. Remove our debts from us and enrich us against poverty.[3]"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[1] The Scripture that was revealed to ‘Īsa (Jesus)."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[2] See Qur’an Al-‘Alaq 96:15, where seizure by the forelock preceeds being cast into Hell. (Translator)"
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="[3] Muslim 4/2084.]"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Before sleeping (D178)"
+           android:textStyle="bold"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="اَلْحَمْدُلِلّٰهِ الَّذِى أَطْعَمَنَا وَسَقَانَا , وَكَفَانَا , وَآوَانَا , فَكَمْ مِمَّنْ لَا كَافِىَ لَهُ وَلَا مُوْوِىَ ."
+           android:textStyle="bold"
+           android:textSize="@dimen/dua_arabic_size_new"
+           android:textAlignment="center"
+           android:textColor="@color/colorList"
+           android:gravity="center"
+           tools:ignore="HardcodedText" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="D178-	Alhamdu lillaahil-lathee ‘at’amanaa wa saqaanaa, wa kafaanaa, wa ‘aawaanaa, fakam mimman laa kaafiya lahu wa laa mu’wiya."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="left"
+           android:textColor="@color/colorList"
+           android:textAppearance="@android:style/TextAppearance"
+           android:textSize="@dimen/dua_arabic_eng_new"
+           android:text="Praise is to Allah Who has provided us with food and with drink, sufficed us and gave us an abode, for how many are there with no provision and with no home."
+           tools:ignore="HardcodedText" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Page 6/8"
+           android:textStyle="bold"
+           android:gravity="right"
+           android:textColor="@color/colorPrimary"
+           tools:ignore="HardcodedText,RtlHardcoded"/>
+
+    <!--   <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="wrap_content"
+           android:layout_gravity="end"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_move_next"
+           tools:ignore="ContentDescription" />-->
+
+
+   </LinearLayout>
+</ScrollView>

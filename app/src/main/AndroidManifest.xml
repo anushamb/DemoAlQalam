@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.frocerie.demoalqalam">
+
+    <!--
+        <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!--
+     <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+    -->
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/alqalam"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            <activity
+            android:name=".MainActivity"
+
+
+            android:screenOrientation="locked">
+        -->
+        <!-- android:windowSoftInputMode="stateHidden|adjustResize" -->
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!-- android:windowSoftInputMode="stateHidden" -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".main_activity.PageLogActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <!-- android:windowSoftInputMode="stateHidden" -->
+
+        <activity
+            android:name=".main_activity.FrontPage"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutEx"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.ListOfMonths"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ListOfDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".SubListOfDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamHutActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".BatchActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".batchphase.HifdActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".batchphase.BatchButActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".batchphase.RegularMadrasActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".batchphase.BatchButActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".batchphase.FullDayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".batchphase.BatchButActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".batchphase.PartTimeActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".batchphase.BatchButActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TajweedActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArabicActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuranActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UrduActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TafseerActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WeeklyActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".batchphase.MagribActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".batchphase.BatchButActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AblutionActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".MaterialsActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ToppersActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ListOfRankActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ToppersActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".videoactivity.VideoAudioActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MaterialsActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ListOfClassActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TransporterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".speechinfo.SpechInfoActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".batchphase.DayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BatchActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".RecyclerViewTest"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dua.BeforeAblution"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AblutionActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.UponAblutionActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AblutionActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AllahDuaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".RemembranceActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AllahDuaActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".SeekActivity"
+            android:label="@string/app_name_for_icon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AllahDuaActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ExcellenceActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AllahDuaActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ExcellenceRemebActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AllahDuaActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ProphetActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AllahDuaActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AngerActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AnguishActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AnimalActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.CockActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AnimalActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DogActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AnimalActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AnimalActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.AssemblyActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SittingAcctivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AssemblyActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ExpiationActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.AssemblyActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ClothesActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ClothesWeaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.ClothesActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ClothesRemActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.ClothesActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ClothesNewActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.ClothesActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.ClothesPutActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.ClothesActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.CongraulationsActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.CongNewActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.CongraulationsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.CongPutActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.CongraulationsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathInvocaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathSayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathStrikesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathEyesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathDeadActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".DeaChildActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathBereActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathPlaceActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathAfterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DeathVisitActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DeathActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DevilActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DevilAgaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DevilActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DevilAgainActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DevilActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DevilPlotActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.DevilActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.DifficultiesActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingBeforeActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingForgetActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingFoddActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingMilkActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingAfterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingHostActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EatingDrinrActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EatingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EvilActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EnemyActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FailureActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FaithActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FastActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FastBreakingActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.FastBreakingActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FastIncitesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.FastBreakingActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FastOffersActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.FastBreakingActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FastSomeActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.FastBreakingActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FrightenedActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FirstDatesActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.FearActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GoodToActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.TellsYoActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.TellsLoveActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.TellsYoActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.TellsForgiveActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.TellsYoActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.TellsBlessActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.TellsYoActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GreetingsActivityDua"
+            android:label="@string/app_name_for_icon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GreeSalamActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GreetingsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GreeReplyActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GreetingsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GreeSayyActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GreetingsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GreePraisedActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GreetingsActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GroomActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GrromDActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GroomActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GroomInActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.GroomActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjPilgrimActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjPassingActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjCornerActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjSafaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjArafahActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjSacredActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HajjMinaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HajjActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HomeActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HomeLeavActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HomeActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.HomeEnterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.HomeActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MisfortuneActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.IntercourseActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.IstikharahActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MarketActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MoneyActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MoneyDebtActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MoneyActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MoneyOfferstActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MoneyActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MoneySomeoneActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MoneyActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MasqueActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MasqueGoingActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MasqueActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MasqueEnterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MasqueActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.MasqueLevActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.MasqueActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.NewMoonActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.PainActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainBlowActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainThunderActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainForActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainWhenActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainAfterActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RainWithhoActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RainActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RepenAndSeekActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RulerActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RulerWhenActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RulerActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.RulerAgainstActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.RulerActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SickActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SickVisiActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SickActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SickRewActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SickActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SinActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepBeforeActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SleepActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepWakeActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SleepActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepNightActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SleepActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepDeprActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SleepActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SleepNightmareActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SleepActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SneezingActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SneezingProAcrivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SneezingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SneezingDisActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SneezingActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SurprisedActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EnteringActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.EnteringToActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EnteringActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.LeavingToAvtivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.EnteringActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.PleaseActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.PleaseSomActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.PleaseActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.PleaseDisplActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.PleaseActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.PleaseHappeActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.PleaseActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.GoodnessActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.WitrActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.WitrQunutActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.WitrActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.WitrSayActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.WitrActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.WorryActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelFailActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelAniActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelRetActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelBehActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelResActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelJouActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelDawActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelInvActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".TravelSayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TravelActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahWuduActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahTayaActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahAdhanActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahSalActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahRukuActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahQaumActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahSujoActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahBetSujActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahThashActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahMayyatActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".dua.SalahDuaAftActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dua.SalahActivityDua"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.MateriHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MaterialsActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.SeekingHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.FaceHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.TootHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.WayHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ForgHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.RightHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.DiniHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ThreeHadeesActivityDua"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ProhiHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ExellHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.PlesuHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.BlooHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.FriendHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.BeHadessActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.KindHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.TongHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.LyiHadessActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.CursinHadeesActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.BackHadeesActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.SusHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.NeigHadeesActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.BroHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.PriHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ChaHadeesActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.FridHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.DonHadeesActvity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.SinsHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ArrogHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.WhiteHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.MaFeHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.ImitHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.GoodHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.DeareHadeeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.MothHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.FathHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.RelaHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".materialhadees.TieHadeesActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".materialhadees.MateriHadeesActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".noticeboard.NoticeBoardActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".gall_youtube.GallYouTubeActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prayer.MarActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.MayActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.SeptActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize"
+           >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.OctActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.NovActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".weeklyplan.ListOfSubClass"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListOfClassActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ClassPortionLkg"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ExamHutActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".ClassPortionUkg"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ExamHutActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".MatericalChmActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MateriChmfileActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dua.ListOfDuaWithAni"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".imagefetch.SecondActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageZoomActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".batchphase.BatchButActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:label="@string/app_name_for_icon"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".videoactivity.ListVideoActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".videoactivity.VideoAudioActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".examhut.ExamPoTiHutActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".examhut.ListOfClassButActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".examhut.ExamPoTiHutActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".examhut.JsonRequestImage"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+
+            <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".examhut.ListOfClassButActivity"
+                android:windowSoftInputMode="stateHidden" />
+            -->
+        </activity>
+        <activity
+            android:name=".prayer.JanActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:configChanges="orientation|screenSize" />
+        </activity>
+        <activity
+            android:name=".prayer.FebActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:configChanges="orientation|screenSize" />
+        </activity>
+        <activity
+            android:name=".prayer.AprActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.JunActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.JulActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.AugActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".prayer.DecActivity"
+            android:label="@string/app_name_for_icon"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".prayer.ListOfMonths"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".FeedBackActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".weeklyplan.WeeklyLessonPlanActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".speechinfo.SpeechInfoImageActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".speechinfo.SpechInfoActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".audioactivity.ListAudioActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MaterialsActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".audioquran.audioquranmodel.ListAudioQuranActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".videoactivity.VideoAudioActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".toppers_activity.ToppersNewActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.PageLogActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".toppers_activity.ExamToppersActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".toppers_activity.ToppersNewActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".toppers_activity.TalenDayActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".toppers_activity.ToppersNewActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".weeklyplan.WeekImageActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".weeklyplan.ListOfSubClass"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".toppers_activity.ListOfRankNewActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".prayer.ListOfMonthsNew"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".main_activity.FrontPage"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+        <activity
+            android:name=".weeklyplan.WeeklyPlanImageFetch"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <!--
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".weeklyplan.ListOfSubClass"
+                android:windowSoftInputMode="stateHidden" />
+        -->
+
+        <activity
+            android:name=".MateriHadeesComeingActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait" />
+        <activity android:name=".examhut.model.ListOfClassPortionActivity"
+            android:label="@string/app_name_for_icon"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".examhut.ExamPoTiHutActivity"
+                android:windowSoftInputMode="stateHidden" />
+        </activity>
+
+        <service
+            android:name=".service_pack.MyIntentService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".service_pack.InternetDetector"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service_pack.RebootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.frocerie.demoalqalam.DeightynFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=" Allah’s Remembrance For Morning And Evening(D018)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_text_size"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="
+أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ , اَللّٰهُمَّ  إِنِّى أَسْأَلُكَ خَيْرَ هَذَا الْيَوْمِ: فَتْحَهُ , وَنَصْرَهُ وَنُورَهُ  , وَبَرَكَتَهُ  , وَهُدَاهُ , وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْهِ وَشَرِّ مَا بَعْدَهُ ."
+            android:textAlignment="center"
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="D018-	‘Asbahnaa wa ‘asbahal-mulku lillaahi Rabbil-‘aalameen, Allaahumma ‘innee wa nasrahu wa noorahu, wa barakatahu, wa hudaahu, wa’a’oothu bika min sharri maa feehi wa sharri maa ba’dahu."
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="We have entered a new day and with it all the dominion which belongs to Allah, Lord of all that exists. O Allah, I ask You for the goodness of this day,[1] its victory, its help, its light, its blessings, and its guidance. I seek refuge in You from the evil that is in it and from the evil that follows it.[2]"
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[1] For evening recitation say here. Allaahumma ‘innee ‘as’aluka khayra haathihil-laylati: “My Lord, I ask You for the good things of this night.”"
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[2] Abu Dawud 4/322. Its transmission chain is good (Hasan). See also Ibn Al-Qayyim, Zadul-ma’ad 2/273.]"
+            android:textColor="@color/duaTextColor"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Page 14/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+      <!--  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+    </LinearLayout>
+
+
+</ScrollView>

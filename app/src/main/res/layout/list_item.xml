@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/relative_notice">
+
+        <TextView
+            android:id="@+id/textViewHead"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heading"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:text="22/14/2015"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorList"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:inputType="text|textMultiLine"
+            android:singleLine="false"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewHead"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="Deprecated,HardcodedText,TextViewEdits" />
+
+
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+</LinearLayout>

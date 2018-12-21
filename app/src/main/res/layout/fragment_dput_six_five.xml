@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.duafrag.DPutSixFiveFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="10dp"
+
+        android:text="Invocations For Someone Who Has Put On New clothes (D065)"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="تُبْلِى وَيُخْلِفُ اللّٰهُ تَعَالٰى"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+ <TextView
+     android:id="@+id/textView13"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="D065- Tublee wa yukhliful-laahu ta’aalaa."
+     tools:ignore="HardcodedText"
+     android:gravity="left"
+     android:textColor="@color/colorList"
+     android:textAppearance="@android:style/TextAppearance"
+     android:textSize="@dimen/dua_arabic_eng_new"/>
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="May Allah replace it when it is worn out."
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"/>
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     tools:ignore="HardcodedText"
+     android:text="[Abu Dawud 4/41. See also Al-Albāni Sahih Abu Dawud 2/760.]"
+     android:gravity="left"
+     android:textColor="@color/colorList"
+     android:textAppearance="@android:style/TextAppearance"
+     android:textSize="@dimen/dua_arabic_eng_new"/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Page 1/2"
+     android:textStyle="bold"
+     android:gravity="right"
+     android:textColor="@color/colorPrimary"
+     tools:ignore="HardcodedText,RtlHardcoded"/>
+<!--
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_gravity="end"
+     android:layout_height="wrap_content"
+     android:src="@drawable/ic_move_next"/>
+-->
+
+
+</LinearLayout>

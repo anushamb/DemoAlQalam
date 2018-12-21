@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.videoactivity.VideoAudioActivity">
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_t_alqalam"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect_button"
+        android:layout_marginTop="61dp"
+        android:id="@+id/btVideo"
+        android:layout_below="@+id/ivLogo"
+        android:layout_centerHorizontal="true"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/btn_badge_video"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/item_count"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/btAudio"
+        android:layout_alignRight="@+id/btVideo"
+        android:layout_alignEnd="@+id/btVideo"
+        android:layout_marginBottom="33dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/ripple_effect_button"
+        android:layout_marginTop="71dp"
+        android:id="@+id/btAudio"
+        android:layout_below="@+id/btVideo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_badge_audio"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/item_count"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:layout_alignBottom="@+id/btAudio"
+        android:layout_alignRight="@+id/btAudio"
+        android:layout_alignEnd="@+id/btAudio"
+        android:layout_marginBottom="33dp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+  <!--  <ImageView
+        android:id="@+id/btVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:textAlignment="center"
+        android:background="@drawable/matirvideo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/btAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio"
+        android:textAlignment="center"
+        android:background="@drawable/mataudio"
+        app:layout_constraintTop_toBottomOf="@+id/btVideo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="ContentDescription,HardcodedText"
+        app:layout_constraintVertical_bias="0.435"
+        android:layout_marginTop="8dp" />
+-->
+</RelativeLayout>

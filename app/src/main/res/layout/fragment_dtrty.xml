@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DtrtyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text=" Allah’s Remembrance For Morning And Evening (D030)"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_text_size"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            tools:ignore="HardcodedText"
+            android:text="رَضِيْتُ بِاللّٰهِ  رَبًّا وَبِالْإِسْلاَمِ دِينًا وَبِمُحَمَّدٍ (صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ ) نَبِيًّا"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="D030-	Radheetu billaahi Rabban, wa bil-‘Islaami deenan, wa bi-Muhammadin (sallallaahu ‘alayhi wa sallama) Nabiyyan."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="I am pleased with Allah as my Lord, with Islam as my religion and with Muhammad (peace and blessings of Allah be upon him) as my Prophet. (Recite three times.)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[“Allah has promised that anyone who says this three times every morning or evening will be pleased on the Day of Resurrection.” Ahmad 4/337, An-Nasā’i, ‘Amanul-Yawm wal-Laylah p. 4, and Ibn As-Sunni (no. 68), At-Tirmithi 5/465. Its chain of chain of transmission is good (Hasan), Ibn Bāz, p.39.]"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 26/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_back" />-->
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

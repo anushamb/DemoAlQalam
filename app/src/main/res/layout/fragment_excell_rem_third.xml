@@ -1,0 +1,474 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.ExcellRemThirdFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_heading_new"
+            android:text="The Excellence Of Remembering Allah (D042 - D046)"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_heading_new"
+            android:textColor="@color/colorList"
+            android:textStyle="bold"
+            android:text=" The Excellence Of Remembering Allah (D042) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="ix. A desert Arab came to Allah’s Messenger (P.B.U.H) and said, “Teach me a word that I can say.” The Prophet told him to say:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"
+            android:gravity="left"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_size_new"
+            tools:ignore="HardcodedText"
+            android:text="لَا إِلَهَ إِلَّا اللّٰهُ  وَحْدَهُ لاَ شَرِيْكَ لَهُ , اَللّٰهُ  أَكْبَرُ كَبِيْرًا, وَالْحَمْدُ لِلّٰهِ كَثِيْرًا, سُبْحَانَ اللّٰهِ رَبِّ الْعَالَمِيْنَ ,لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ  الْعَزِيْزِ الْحَكِيْمِ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="D042- Laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu, Allahu ‘Akbaru kabeeran, walhamdu lillaahi katheeran, Subhaanallaahi Rabbil-‘aalameen, laa hawla wa laa quwwata ‘illaa billaahil-‘Azeezil-Hakeem.."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:text="There is none worthy of worship but Allah, Who has no partner, Allah is the Great, the Most Great, and praise is to Allah in abundance, glory is to Allah, Lord of the worlds. There is no power and no might but by Allah the Mighty, the Wise."/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorList"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="@dimen/dua_heading_new"
+            android:text="The Excellence Of Remembering Allah (D043) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:text="He said, “That is for my Lord, but what about me?” The Prophet (P.B.U.H) told him to say:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:text="اَللّٰهُمَّ اغْفِرْ لِى وَارْحَمْنِى  وَاهْدِنِى وَارْزُقْنِى."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="D043-  Allaahummaghfir lee, warhamnee, wahdinee warzuqnee."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:gravity="left"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="O Allah forgive me, and have mercy on me, and guide me, and provide for me."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:gravity="left"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="[Muslim 4/2072, Abu Dawud reports the same Hadith with the addition: and when the Arab left, the Prophet (P.B.U.H) said: “He has filled his hands with goodnesss.” 1/220.]"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_heading_new"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="The Excellence Of Remembering Allah (D044) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="x. Whenever anyone accepted Islam, the Prophet (P.B.U.H) used to teach him how to pray, then he would instruct him to invoke Allah with the following words:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textColor="@color/colorList"
+            android:textAlignment="center"
+            android:text="اَللّٰهُمَّ اغْفِرْ لِى وَارْحَمْنِى وَاهْدِنِى وَعَافِنِى  وَارْزُقْنِى."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textColor="@color/colorList"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="D044- Allaahummaghfir lee, warhamnee, wahdinee, wa ‘aafinee warzuqnee."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="O Allah forgive me, and have mercy on me, and guide me, and give me good
+health and provide for me."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="[Muslim 4/2073, and in one of Muslim’s reports there is the addition: ‘For these words combine [the goodness of]this world and the next.’"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorList"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            android:gravity="left"
+            android:text="The Excellence Of Remembering Allah (D045) :"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:gravity="left"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="xi. The most excellent invocation is"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:text="اَلْحَمْدُ لِلّٰهِ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D045- Alhamdu lillah"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="Praise is for Allah,"/>   <!--continueD046-->
+
+
+<!--con-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textColor="@color/colorList"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="@dimen/dua_heading_new"
+            android:text="The Excellence Of Remembering Allah (D046) :"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="And the most excellent words of remembrance are:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:text="لاَ إِلٰهَ إِلاَّ اللّٰهُ."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="D046- Laa ‘ilaaha ‘illallaah."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="There is none worthy of worship but Allah."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:text="[At-Tirmithi 5/462, Ibn Majah 2/1249, and Al-Hakim who graded it authentic and Ath-Thahabi agreed 1/503. See Al-Albani, Sahihul-Jami’ As-Saghir 1/362.]"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 3/4"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+     <!--   <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next" />-->
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

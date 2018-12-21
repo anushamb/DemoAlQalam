@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video List"
+        android:id="@+id/videoHead"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/videoView"
+        android:layout_below="@id/videoHead"
+        android:background="@color/colorAccent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView"
+        android:src="@drawable/video_iamge"
+        android:id="@+id/videoImage"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/videoColor"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Video Names.."
+        android:id="@+id/tvVideo"
+        android:layout_alignTop="@+id/videoImage"
+        android:layout_toRightOf="@+id/videoImage"
+        android:layout_alignBottom="@+id/videoImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/videoImage"
+        android:background="@color/videoAccent"
+        />
+-->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video_iamge"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/videoImage"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="5dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+       android:inputType="text|textMultiLine"
+       android:textColor="@color/videoColor"
+        android:gravity="left"
+       android:textStyle="bold"
+       android:layout_height="wrap_content"
+        android:text="Video Names..jbvhjdsbgvhj sdgbvhgsvdghvdsdghcvghjrtkhgjkhtgje
+hjijhjjfefhnrg"
+       android:id="@+id/tvVideo"
+       android:background="?android:attr/selectableItemBackground"
+       android:layout_alignTop="@+id/videoImage"
+       android:layout_toRightOf="@+id/videoImage"
+       android:layout_toEndOf="@+id/videoImage"
+       tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvVideo"
+        android:background="@color/videoAccent"
+        />
+
+
+
+</RelativeLayout>

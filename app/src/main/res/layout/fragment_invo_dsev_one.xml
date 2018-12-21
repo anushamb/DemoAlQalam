@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.InvoDsevOneFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="Invocations Of The Terminally Ill(D071)"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:text="
+لَا إِلٰهَ إِلَّااللّٰهُ، وَاللّٰهُ أَكْبَرُ , لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ , لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَا إِلٰهَ إِلَّااللّٰهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ  , لَا إِلٰهَ إِلَّااللّٰهُ وَلَا حَوْلَ وَ لَا قُوَّةَ إِلَّا بِاللّٰه."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="D071-	Laa ‘ilaaha ‘illallaahu wallaahu ‘Akbar, laa ‘ilaaha ‘illallaahu wahdahu, laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu, laa ‘ilaaha ‘illallaahu lahul-mulku wa lahul-hamdu, laa ‘ilaaha ‘illallaahu wa laa hawla wa laa quwwata  ‘illaa billaah."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="There is none worthy of worship but Allah, Allah is the Most Great. None has the right to be worshipped but Allah alone. None has the right to be worshipped but Allah alone, Who has no partner. There is none worthy of worship but Allah, His is the dominion and His is the praise. There is none worthy of worship but Allah, there is no power and no mighty but by Allah."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        tools:ignore="HardcodedText"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:text="[At-Tirmithi and Ibn Mājah. See also Al-Albāni, Sahih At-Tirmithi 3/152 Sahih Ibn Majah 2/317.] "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 3/3"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+  <!--  <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_back"
+        tools:ignore="ContentDescription" />-->
+
+
+</LinearLayout>
+
+
+
+</ScrollView>

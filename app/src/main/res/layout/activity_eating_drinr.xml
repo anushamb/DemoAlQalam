@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.EatingDrinrActivity">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Someone who gives you drink or offers it to you(D097)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/dua_heading_new"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="اَللّٰهُمَّ  أَطْعِمْ مَنْ أَطْعَمَنِيْ وَاسْقِ مَنْ سَقَانِيْ ."
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="D097-  Allaahumma ‘at’im man ‘at’amnee wasqi man saqaanee."
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="O Allah, feed the one who has fed me and give drink to the one who has given me drink."
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Page 1/1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</LinearLayout>

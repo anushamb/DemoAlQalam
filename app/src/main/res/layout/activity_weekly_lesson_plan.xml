@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:layout_centerVertical="true"
+    android:background="@drawable/testbg"
+    android:columnCount="3"
+    tools:context="com.frocerie.demoalqalam.weeklyplan.WeeklyLessonPlanActivity">
+
+
+
+
+
+    <Button
+        android:id="@+id/weekLkg"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/lkg"
+
+        />
+
+
+    <Button
+        android:id="@+id/weekUkg"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ukg"
+        />
+
+    <Button
+        android:id="@+id/weekFirst"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/first"
+        />
+
+    <Button
+        android:id="@+id/weekSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/second"/>
+    <Button
+        android:id="@+id/weekThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/third"/>
+    <Button
+        android:id="@+id/weekForth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/forth"/>
+
+
+    <Button
+        android:id="@+id/weekFifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/fifth"/>
+    <Button
+        android:id="@+id/weekSixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/sixth"/>
+    <Button
+        android:id="@+id/weekSeventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/seventh"/>
+
+
+</GridLayout>

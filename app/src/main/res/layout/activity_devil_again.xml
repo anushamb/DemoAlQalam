@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.DevilAgainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/colorWhite"
+      android:padding="16dp">
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          tools:ignore="HardcodedText"
+          android:text="Invocations Against The Devil And His Promptings (D087)"
+          android:textColor="@color/colorPrimary"
+          android:layout_marginTop="10dp"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:textSize="@dimen/dua_heading_new"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:ignore="HardcodedText"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text=" i.Seeking refuge with Allah against him (i.e. by saying I seek refuge in Allah from Satan the outcast)."
+         />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+      <TextView
+          android:layout_width="match_parent"
+
+          tools:ignore="HardcodedText"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text="[Abu Dawud 2/86, At-Tirmithi 2/257. Al-Albāni graded it authentic in Sahih Abu Dawud 1/283.]"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          tools:ignore="HardcodedText"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text="ii.The call to prayer-Athan."/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:ignore="HardcodedText"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text="[Abu Dawud 1/206, At-Tirmithi. See also Al-Albāni, Sahih At-Tirmithi 1/77, and Surat Al-Mu’minūn, 23:98-9.]"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+      <TextView
+          android:layout_width="match_parent"
+          tools:ignore="HardcodedText"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text="iii.Saying words of Allah’s remembrance (Thikr) and recitation of the Quran."/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:ignore="HardcodedText"
+          android:gravity="left"
+          android:textColor="@color/colorList"
+          android:textAppearance="@android:style/TextAppearance"
+          android:textSize="@dimen/dua_arabic_eng_new"
+          android:text="[Muslim 1/291, Al-Bukhāri 1/151.]"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Page 1/1"
+          android:textStyle="bold"
+          android:gravity="right"
+          android:textColor="@color/colorPrimary"
+          tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+  </LinearLayout>
+
+</ScrollView>

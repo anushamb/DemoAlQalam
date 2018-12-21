@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.EatingActivityDua">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:background="@color/colorWhite"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EATING"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView6"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/tveatBefo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Before eating (D090)"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"
+        />
+
+
+        <Button
+            android:id="@+id/tvEatForg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.If you forget then, when you remember (D091)."
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tveatBefo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"
+            />
+
+
+        <Button
+            android:id="@+id/tvEatFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Whomever Allah has  given food, should say (D092)"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvEatForg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+        <Button
+            android:id="@+id/tvEatMilk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Whomever Allah has given milk to drink, should say (D093)."
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvEatFood"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true" />
+
+
+        <Button
+            android:id="@+id/tvEatAfter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.After eating (D094 - D095)"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvEatMilk"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvEatHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.A dinner guest’s invocation for his host (D096)"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvEatAfter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true" />
+
+
+
+        <Button
+            android:id="@+id/tvEatDrink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.Someone who gives you drink or offers it to you (D097)."
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="16dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvEatHost"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+       <!-- <Button
+            android:id="@+id/tveatBefo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Before eating (D090)"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/tvEatForg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.If you forget then, when you remember (D091)."
+            android:layout_below="@+id/tveatBefo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true" />
+
+
+        <Button
+            android:id="@+id/tvEatFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Whomever Allah has given food, should say (D092)"
+            android:layout_below="@+id/tvEatForg"
+            android:layout_alignLeft="@+id/tvEatForg"
+            android:layout_alignStart="@+id/tvEatForg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/tvEatAfter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.After eating (D094 - D095)"
+            android:layout_below="@+id/tvEatFood"
+            android:layout_alignLeft="@+id/tvEatFood"
+            android:layout_alignStart="@+id/tvEatFood"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true" />
+
+
+        <Button
+            android:id="@+id/tvEatHost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.A dinner guest’s invocation for his host (D096)"
+            android:layout_below="@+id/tvEatAfter"
+            android:layout_alignLeft="@+id/tvEatAfter"
+            android:layout_alignStart="@+id/tvEatAfter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true"/>
+        <Button
+            android:id="@+id/tvEatDrink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Someone who gives you drink or offers it to you (D097)."
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEatMilk"
+            android:layout_below="@+id/tvEatDrink"
+            android:text="7.Whomever Allah has given milk to drink, should say (D093)."
+            tools:ignore="HardcodedText" />
+        -->
+
+    </RelativeLayout>
+
+
+<!--
+    <TextView
+        android:id="@+id/tveatBefo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Before eating (D090)"
+        android:textColor="@color/colorList"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+ <TextView
+        android:id="@+id/tvEatForg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- If you forget then, when you remember (D091)."
+        android:textColor="@color/colorList"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEatFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Whomever Allah has given food, should say (D092)"
+        android:textColor="@color/colorList"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEatMilk"
+        android:textColor="@color/colorList"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Whomever Allah has given milk to drink, should say (D093)."
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEatAfter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- After eating (D094 - D095)"
+        android:textColor="@color/colorList"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEatHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- A dinner guest’s invocation for his host (D096)"
+        android:textColor="@color/colorList"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvEatDrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Someone who gives you drink or offers it to you (D097)."
+        android:textColor="@color/colorList"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />-->
+
+
+</ScrollView>

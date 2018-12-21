@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/slider"
+    android:orientation="vertical" >
+
+</RelativeLayout>
+
+
+
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SplashTheme"
+    android:orientation="vertical"
+    tools:context="com.frocerie.demoalqalam.MainActivity">
+
+
+   <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_gravity="fill_vertical"
+       android:scaleType="centerCrop"
+        style="@style/SplashTheme"
+        app:srcCompat="@drawable/bluebb"/>
+
+
+</LinearLayout>-->

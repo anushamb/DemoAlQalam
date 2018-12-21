@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.AllahDuaActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALLAH"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+   <Button
+        android:id="@+id/tvRem"
+        android:layout_marginTop="34dp"
+       android:background="@drawable/ripple_effect_button"
+       android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="1.Allah’s remembrance for morning and evening (D005-D030)"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+       android:layout_below="@+id/textView6"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/tvSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:clickable="true"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="2.How to seek Allah’s protection for children(D0031)."
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/tvRem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/tvExce"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="3.The excellence of asking for Allah’s blessings upon the Prophet(P.B.U.H)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_below="@+id/tvSeek"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+
+
+    <Button
+        android:id="@+id/tvExcelRem"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_width="match_parent"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="4.The excellence of remembering Allah       (D032 - D051)."
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_below="@+id/tvExce"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/tvProphet"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="5.How the Prophet (P.B.U.H) glorified Allah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:clickable="true"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:gravity="left|center_vertical"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_below="@+id/tvExcelRem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+
+
+
+
+
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tvSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="- How to seek Allah’s protection for children(D0031)."
+        tools:ignore="HardcodedText" />-->
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tvExce"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="- The excellence of asking for Allah’s blessings upon the Prophet(P.B.U.H)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/tvExcelRem"
+        android:text="- The excellence of remembering Allah (D032 - D051)."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:clickable="true"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvProphet"
+        android:text="- How the Prophet (P.B.U.H) glorified Allah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText" />-->
+
+</RelativeLayout>

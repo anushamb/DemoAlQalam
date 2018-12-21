@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.duafrag.SleepBefoEighFragemt">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Before Sleeping (D181)"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اَللّٰهُمَّ  أَسْلَمْتُ نَفْسِي إِلَيْكَ, وَفَوَّضْتُ أَمْرِي إِلَيْكَ , وَوَجَّهْتُ وَجْهِي اِلَيْكَ,  وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ ,  رَغْبَةًوَ رَهْبَةً إِلَيْكَ , لَا مَلْجَأَ وَلَا مَنْجَا مِنْكَ إِلَّا إِلَيْكَ , آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ. "
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="D181-	Allaahumma ‘aslamtu nafsee ‘ilayka, wa fawwadhtu ‘amree ‘ilayka, wa wajjahtu wajhee ‘ilayka, wa ‘alja’tu dhahree ‘ilayka, raghbatan wa rahbatan ‘ilayka, laa malja’wa laa manja minka ‘illaa ‘ilayka, ‘aamantu bikitaabikal-lathee ‘anzalta wa bi-nabiyyikal-lathee ‘arsalta."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="O Allah, I submit to You, entrust my affairs to You, turn my face to You, and lay myself down depending upon You hoping in You and fearing You. There is no refuge, and no escape, except to You. I believe in Your book (the Qur’an) that You revealed, and the Prophet whom You sent"
+            tools:ignore="HardcodedText" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="[The Prophet (P.B.U.H) said: “Whoever says this and dies in his sleep, has died in a state of the natural monotheism (Fitrah).” Al-Bukhāri, cf. Al-Asqalāni, Fathul-Bāri 11/113, Muslim 4/2081.]"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 8/8"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+    <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_back"
+            tools:ignore="ContentDescription" />-->
+
+
+</LinearLayout>
+
+</ScrollView>

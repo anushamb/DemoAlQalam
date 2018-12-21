@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:backgroundTint="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.BeforeAblution"
+    tools:targetApi="lollipop">
+
+    <!--   <LinearLayout
+           android:orientation="vertical"
+           android:paddingLeft="16dp"
+           android:paddingTop="16dp"
+           android:paddingRight="16dp"
+           android:layout_width="368dp"
+           android:layout_height="495dp"
+           tools:layout_editor_absoluteY="8dp"
+           tools:layout_editor_absoluteX="8dp"
+           tools:ignore="MissingConstraints">-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=" Before Performing Ablution (D001)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/dua_heading_new"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="بِسْمِ اللّٰهِ"
+        android:textAlignment="center"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvBefore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="D001- Bismillahi"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="In the name of Allah"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_eng_size_new"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvAbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="[Abu Dawud, IbnC Majah, and Ahmad. See also Albāni, ‘Irwa’ul-Ghalīl 1/122.]"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:textSize="@dimen/dua_eng_size_new"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Page 1/1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <!--    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.examhut.ListOfClassButActivity">
+
+    <RelativeLayout
+        android:id="@+id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        tools:ignore="UnknownId,UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/lkg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_lkg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnLkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/lkg"
+            android:layout_alignEnd="@+id/lkg"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/ukg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/lkg"
+            android:background="@drawable/effect_ukg"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnUkg"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/ukg"
+            android:layout_alignEnd="@+id/ukg" />
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_first"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ukg"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnFirst"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/first"
+            android:layout_alignEnd="@+id/first" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/second_badge_relative_layout"
+        android:layout_below="@id/first_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_second"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnSecond"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/second"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/second"
+            android:background="@drawable/effect_third"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnThird"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/third"
+            android:layout_alignEnd="@+id/third" />
+
+        <Button
+            android:id="@+id/forth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_forth"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/third"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnForth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/forth"
+            android:layout_alignEnd="@+id/forth" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/third_badge_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/second_badge_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <Button
+            android:id="@+id/fifth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/effect_fifth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnFifth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/fifth"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/sixth"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/fifth"
+            android:background="@drawable/effect_sixth"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnSixth"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/sixth"
+            android:layout_alignEnd="@+id/sixth" />
+
+        <Button
+            android:id="@+id/seventh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_seventh"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/sixth"
+            tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/btnSeventh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/seventh"
+            android:layout_alignEnd="@+id/seventh" />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/third_badge_relative_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+    >
+
+            <Button
+                android:id="@+id/thajweedh"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/effect_thajweedh"/>
+        <Button
+            android:id="@+id/btnThajweed"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignRight="@+id/thajweedh"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/hifdh"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/effect_hifdh"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/thajweedh"/>
+
+
+        <Button
+            android:id="@+id/btnHifdh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/item_count"
+            android:text="0"
+            android:paddingBottom="3dp"
+            android:paddingTop="1dp"
+            android:textColor="#FFF"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hifdh"
+            android:layout_alignEnd="@+id/hifdh" />
+
+        </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

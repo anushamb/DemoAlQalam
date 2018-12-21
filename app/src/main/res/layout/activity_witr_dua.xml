@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.frocerie.demoalqalam.dua.WitrActivityDua">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WITR PRAYER"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView6"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/tvWitrQun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.For Qunut in the Witr prayer (D212 - D214)"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left|center_vertical"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:onClick="onClick"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="true"/>
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ripple_effect_button"
+        android:textColor="@color/colorWhite"
+        android:clickable="true"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:onClick="onClick"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:id="@+id/tvWitrsay"
+        android:text="2.What to say immediately following the Witr prayer (D215 - D2016)"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/tvWitrQun"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+    <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+        <TextView
+            android:id="@+id/tvWitrQun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - For Qunut in the Witr prayer (D212 - D214)"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tvWitrsay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- What to say immediately following the Witr prayer (D215 - D2016)"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />-->
+
+
+
+
+
+</RelativeLayout>

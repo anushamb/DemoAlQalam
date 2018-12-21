@@ -1,0 +1,378 @@
+<resources>
+    <!--<string name="app_name">\t\t\t\tAlQalam</string>
+    <string name="login"><b>\t\t\t\t\t\t\tLOGIN</b></string>
+    <string name="log">\t\t\t\tLogin Next</string>
+    <string name="batchActiv">\t\t\t\tBatches</string>
+    <string name="hifdActiv">\t\t\t\tRESIDENTIAL FOR GIRLS</string>
+    <string name="reulActi">\t\t\t\tREGULAR MADRASA </string>
+    <string name="fullActiv">\t\t\t\tFULL DAY HIFD</string>
+    <string name="partActiv">\t\t\t\tPART TIME HIFD</string>
+    <string name="tajweedActiv">\t\t\t\tTAJWEED BATCH</string>
+    <string name="arabicActiv">\t\t\t\tARABIC BATCH</string>
+    <string name="quranActiv">\t\t\t\tQUR’AN BATCH</string>
+    <string name="urduActiv">\t\t\t\tURDU BATCH</string>
+    <string name="tafseerActiv">\t\t\t\tTAFSEER BATCH</string>
+    <string name="weeklyActiv">\t\t\t\t WEEKLY BATCH</string>
+    <string name="hadeesActiv">\t\t\t\tHADEES BATCH</string>
+    <string name="magribActiv">\t\t\t\tMAGRIB BATCH</string>-->
+
+
+    <!--Internet Detector-->
+    <string name="tit_alert_internet">Internet Settings</string>
+    <string name="alert_internet">Would you like to turn on internet from settings?</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="app_name_for_icon">Al Qalam Arabic Academy</string>
+
+    <string name="app_name">Al Qalam </string>
+    <string name="login"><b>LOGIN</b></string>
+    <string name="log">\t\t\t\tLogin Next</string>
+    <string name="batchActiv">\t\t\t\tBatches</string>
+    <string name="hifdActiv">\t\t\t\tRESIDENTIAL FOR GIRLS</string>
+    <string name="reulActi">\t\t\t\tREGULAR MADRASA </string>
+    <string name="fullActiv">\t\t\t\tFULL DAY HIFD</string>
+    <string name="partActiv">\t\t\t\tPART TIME HIFD</string>
+    <string name="tajweedActiv">\t\t\t\tTAJWEED BATCH</string>
+    <string name="arabicActiv">\t\t\t\tARABIC BATCH</string>
+    <string name="quranActiv">\t\t\t\tQUR’AN BATCH</string>
+    <string name="urduActiv">\t\t\t\tURDU BATCH</string>
+    <string name="tafseerActiv">\t\t\t\tTAFSEER BATCH</string>
+    <string name="weeklyActiv">\t\t\t\t WEEKLY BATCH</string>
+    <string name="hadeesActiv">\t\t\t\tHADEES BATCH</string>
+    <string name="magribActiv">\t\t\t\tMAGRIB BATCH</string>
+
+
+    <string name="exam_top">Exam\nToppers</string>
+    <string name="talen_top">   Talensday\nToppers</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="alqalam">Home</string>
+    <string name="feedback">FeedBack</string>
+
+    <string name="loginn">Log In</string>
+    <string name="about">About Us</string>
+
+    <string name="share">Share</string>
+
+
+    <string name="hifd">GIRLS HIFD HOSTEL WITHIN THE VICINITY OF MANGALURU WITH FOLLOWING FACILITIES</string>
+    <string name="additional">Additional to Hifd these subjects also covered</string>
+    <string name="extra">Extra curricular Activities</string>
+    <string name="note">Note</string>
+
+    <string name="regular"> <b>-</b> Regular classes are being held for the students aged above 4 years.\t\n<b>-</b> Classes are being held in Morning an Evening in two different sections – "Vaslane and Subash Nagar.
+     </string>
+    <string name="time">Timings :</string>
+    <string name="sub">Subjects Covered</string>
+    <string name="activites">Some of the activities conducted through out the academic year include</string>
+    <string name="aboutUs1">In the name of Allah, the Most Gracious, the Most Merciful. Blessings and peace be upon Muhammed(PBUH) and upon His family and upon his companions.</string>
+    <string name="aboutUs2">\t\tAl Qalam Arabic Academy is striving to awaken the Muslim community through religious training and teaching. Without religious training, it is not possible to produce a fine human being out of an individual.</string>
+    <string name="aboutUs3">\t\tAlhamdulillah our institution includes well educated and trained faculty members and teachers, who give their best in teaching. The students learn in a very simple and easy way and through to understand practical aspects of Islamic teachings.
+</string>
+    <string name="aboutUs4">\t\t\tBy relying on Allahs grace and help, the academy has decided to prepare a series of their own text books with the help of scholars and teachers of the academy. These text books contain the basic terminologies of Islam and cover a wide range of related subjects. Significant areas will include covering recitation and memorization of the Quran with Tajweed, Hadees with references to the articles on Islamic Faith, and the illustrations from the Prophets(PBUH) life.
+</string>
+    <string name="aboutUs5">\t\t\tMay Allah(SWT) Shower His  Choicest Blessings and mercy and Grant  success for all its services and bless this Academy to serve purposefully May Allah Ta ala accept our efforts and good deeds. In Sha Allah, Ameen</string>
+    <string name="vaslane">\t \t VASLANE</string>
+    <string name="vasl">\t \t H.E.C.C, VASLANE 1st Cross,\n\t \t  Near Unity Hospital,Mangalore.</string>
+    <string name="subash">\t \t SUBASH  NAGAR</string>
+    <string name="subas">\t \t 3rd Cross, Subash Nagar,\n\t \t Pandeshwar,Mangalore.</string>
+    <string name="callUs">\t \t +91\t 9036415600  \n \t\t +91\t 9740659518</string>
+
+
+    <string name="fullDay">Regular Hifd classes for Girls along with Tajweed, Dua and Salah.
+</string>
+
+    <string name="partTime">Part time Hifd classes for both boys and girls.</string>
+    <string name="tajweedBatch">Regular classes focusing on various batches:</string>
+    <string name="arabicBatch">Regular day time batch for Sisters :</string>
+    <string name="magribBatch">Regular Qur’an class for boys :</string>
+    <string name="sunday">Separate classes for Gents and Ladies on Sunday</string>
+
+
+    <string name="dayBatch">Regular classes focusing on various batches:</string>
+    <string name="arbtime">  - Regular day time batch for Sisters from Monday to \t\t\t\t \t Thursday.</string>
+    <string name="weeklysub"> - Subjects Covered</string>
+
+
+    <string name="timing">Timings :</string>
+    <string name="from"><u>From :</u></string>
+
+
+    <string-array name="num">
+        <item>I.</item>
+        <item>II.</item>
+        <item>III.</item>
+        <item>IV.</item>
+        <item>V.</item>
+        <item>VI.</item>
+        <!-- <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>-->
+    </string-array>
+
+
+    <string-array name="batch">
+        <item>AL QALAM HIFD RESIDENTIAL FOR GIRLS</item>
+        <item>REGULAR MADRASA</item>
+        <item>FULL DAY HIFD</item>
+        <item>PART TIME HIFD</item>
+        <item>DAY BATCH</item>
+        <!--<item>TAJWEED BATCH</item>
+        <item>ARABIC BATCH</item>
+        <item>QUR’AN BATCH</item>
+        <item>URDU BATCH</item>
+        <item>TAFSEER BATCH</item>
+       <item>WEEKLY BATCH</item>
+        <item>HADEES BATCH</item>-->
+        <item>MAGRIB BATCH</item>
+    </string-array>
+
+
+    <string-array name="list_of_months">
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+
+    <string-array name="listofmonths">
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- <item>April.</item>-->
+
+
+    <string-array name="arry_lists">
+
+        <item>ABLUTION</item>
+        <item>ALLAH</item>
+        <item>ANGER</item>
+        <item>ANIMAL</item>
+        <item>ANGUISH</item>
+        <item>ASSEMBLY</item>
+        <item>CLOTHES</item>
+        <item>CONGRATULATIONS</item>
+        <item>DEATH</item>
+        <item>DEVIL</item>
+        <item>DIFFICULTIES</item>
+        <item>EATING</item>
+        <item>EVIL</item>
+        <item>ENEMY</item>
+        <item>FAILURE</item>
+        <item>FAITH</item>
+        <item>FAST</item>
+        <item>FRIGHTENED</item>
+        <item>FIRST DATES OF THE SEASON</item>
+        <item>FEAR</item>
+        <item>FOR SOMEONE WHO DOES GOOD TO YOU (D112) </item>
+        <item>FOR SOMEONE WHO TELLS YOU</item>
+        <item>GREETINGS</item>
+        <item>GROOM</item>
+        <item>HAJJ OR ‘UMRAH</item>
+        <item>HOME</item>
+        <item>IF YOU SEE SOMEONE AFFLICTED BY MISFORTUNE</item>
+        <item>INTERCOURSE</item>
+        <item>ISTIKHARAH (SEEKING ALLAH’S COUNSEL)</item>
+        <item>MARKET</item>
+        <item>MONEY </item>
+        <item>MOSQUE [MASJID]</item>
+        <item>NEW MOON</item>
+        <item>PAIN</item>
+        <item>RAIN</item>
+        <item>REPENTANCE AND SEEKING FORGIVENESS</item>
+        <item>RULER</item>
+        <item>SICK</item>
+        <item>SALAH</item>
+        <item>SIN</item>
+        <item>SLEEP</item>
+        <item>SNEEZING</item>
+        <item>SURPRISED OR STARTLED</item>
+        <item>TOILET</item>
+        <item>TO PLEASE YOU OR TO DISPLEASE YOU</item>
+        <item>TRAVEL</item>
+        <item>TYPES OF GOODNESS AND GOOD ETIQUETTE FOR COMMUNITY LIFE </item>
+        <item>WITR PRAYER</item>
+        <item>WORRY AND GRIEF</item>
+    </string-array>
+
+
+    <string-array name="hadees_list">
+
+        <item>SEEKING KNOWLEDGE AND WISDOM</item>
+        <item>FACE, FACING IN BATHROOM</item>
+        <item>TOOTH-BRUSHING</item>
+        <item>WAY OF EATING</item>
+        <item>FORGET TO SAY BISMILLAH</item>
+        <item>RIGHT HAND</item>
+        <item>DINING MANNERS-4</item>
+        <item>THREE BREATHS</item>
+        <item>PROHIBITED IN DRINK</item>
+        <item>EXCELLENT MORAL</item>
+        <item>PLEASURE OF THE FATHER</item>
+        <item>BLOOD TIE</item>
+        <item>FRIEND</item>
+        <item>BE KIND</item>
+        <item>KINDNESS</item>
+        <item>TONGUE</item>
+        <item>LYING</item>
+        <item>CURSING</item>
+        <item>BACKBITING</item>
+        <item>SUSPICION</item>
+        <item>NEIGHBOR </item>
+        <item>BROTHERHOOD</item>
+        <item>PRIDE (KIBR)</item>
+        <item>CHARITY</item>
+        <item>FRIDAY BATH</item>
+        <item>DON’T EAT</item>
+        <item>SINS ARE PARDONED</item>
+        <item>ARROGANCE IN DRESSING</item>
+        <item>WHITE CLOTHE</item>
+        <item>MALE - FEMALE DRESS CODE</item>
+        <item>IMITATES</item>
+        <item>GOOD CHARACTER</item>
+        <item>DEAREST</item>
+        <item>YOUR MOTHER</item>
+        <item>YOUR FATHER</item>
+        <item>YOUR RELATIVE</item>
+        <item>YOUR TIE</item>
+
+
+    </string-array>
+
+
+    <string-array name="portion">
+
+        <item><b>Class-LKG</b></item>
+        <item><b>Class-UKG</b></item>
+        <item><b>Class-I</b></item>
+        <item><b>Class-II</b></item>
+        <item><b>Class-III</b></item>
+        <item><b>Class-IV</b></item>
+        <item><b>Class-V</b></item>
+        <item><b>Class-VI</b></item>
+        <item><b>Class-VII</b></item>
+        <item><b>TAJWEED</b></item>
+        <item><b>HIFD</b></item>
+
+
+    </string-array>
+
+
+    <string-array name="weekly_plan">
+
+        <item><b>Class-LKG</b></item>
+        <item><b>Class-UKG</b></item>
+        <item><b>Class-I</b></item>
+        <item><b>Class-II</b></item>
+        <item><b>Class-III</b></item>
+        <item><b>Class-IV</b></item>
+        <item><b>Class-V</b></item>
+        <item><b>Class-VI</b></item>
+        <item><b>Class-VII</b></item>
+    </string-array>
+
+    <string name="arabic_font">ذٰلِكُم بَلاءٌ مِن رَبِّكُم عَظيمٌ</string>
+    <string name="arabic_large_font">وَإِذ قالَ موسىٰ لِقَومِهِ اذكُروا نِعمَةَ اللَّهِ عَلَيكُم إِذ أَنجاكُم مِن آلِ فِرعَونَ  وَإِذ قالَ موسىٰ لِقَومِهِ اذكُروا نِعمَةَ اللَّهِ عَلَيكُم إِذ أَنجاكُم مِن آلِ فِرعَونَ ذٰلِكُم بَلاءٌ مِن رَبِّكُم عَظيمٌ
+</string>
+
+
+    <string name="d">D002- ‘Ash-hadu ‘an laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu wa
+‘ash-hadu ‘anna Muhammadan ‘abduhu wa Rasooluhu.</string>
+    <string name="ibear">I bear witness that none has the right to be worshipped but Allah alone, Who
+has no partner; and I bear witness that Muhammad is His slave and His Messenger.
+[Muslim 1/209.]</string>
+
+
+    <string name="dd">D003-	Allahummaj’alnee minat-tawwaabeena waj’alnee minal mutatahhireen.</string>
+
+    <string name="oallah">O Allah, make me among those who turn to You in repentance, and make me among those who are purified.
+[At-Tirmithi 1/78. See also Al-Albāni, Sahih At-Tirmithi 1/18.] </string>
+
+
+    <string name="ddd">D004-Subhaanaka Allahumma wa bihamdika, ‘ash-hadu ‘an laa ‘ilaaha ‘illaa ‘Anta, ‘astaghfiruka wa ‘atoobu ‘ilayk.</string>
+
+    <string name="glory">Glory is to You, O Allah, and praise; I bear witness that there is none worthy of worship but Yo. I seek Your forgiveness and turn to You in repentance.
+[An-Nasā’I, ‘Amalul-Yawm wal-Laylah, p.173. See also Al-Albāni, ‘Irwa ‘ul-Ghalil 1/135 and 2/94.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="dfive">D005-	‘A’oothu billahi minash-Shaytaanir-rajeem. Allahulaa ‘ilaaha ‘illaa Huwal-Hayyul-Qayyoom, laa ta’khuthuhu sinatun wa laa nawm, lahu maa fis-samaawaati wa maa fil-‘ardh, man thal-lathee yashfa’u ‘indahu ‘illaa bi’ithnih, ya’lamu maa bayna ‘aydeehim wa maa khalfahum, wa laa yuheetoon bishay’im-min ‘ilmihi ‘illaa bimaa shaa’a, wasi’a kursiyyuhus samaawaati wal’ardh, wa laa ya’ooduhu hifdhuhumaa, wa Huwal-‘Aliyyul-‘Adheem.</string>
+
+    <string name="dfive_eng">I seek refuge in Allah from Satan the outcast. –Allah! There is none worthy of
+worship but He, the Ever Living, the One Who sustains and protects all that
+exists. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in
+the Heavens and whatever is on the earth. Who is he that can intercede with
+Him except with His Permission? He knows what happens to them in this
+world, and what will happen to them in the Hereafter. And they will never encompass anything of His Knowledge except that which He wills. His Throne
+extends over the heavens and the earth, and He feels no fatigue in guarding
+and preserving them. And He is the Most High, the Most Great.</string>
+
+
+    <string name="dsix">D006-	Bismillaahir-Rahmaanir-Raheem. Qul Huwallahu ‘Ahad. Allahus-Samad. Lam yalid wa lam yoolad. Wa lam yakun lahu kufuwan ‘ahad..</string>
+
+    <string name="dsix_eng">With the Name of Allah, the Most Gracious, the Most Merciful. Say: He is Allah (the) One. The Self-Sufficient Master, Whom all creatures need, He begets not nor was He begotten, and there is none equal to Him.
+</string>
+
+
+    <string name="dseven">D007- Bismillaahir-Rahmaanir-Raheem. Qul ‘a’oothu birabbil-falaq. Min sharri ma khalaq. Wa min sharri ghaasiqin ‘ithaa waqab. Wa min sharrin-naffaathaati fil-‘uqad. Wa min sharri haasidin ‘ithaa hasad.
+</string>
+
+    <string name="dseven_eng">With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek
+refuge with (Allah) the Lord of the daybreak, from the evil of what he has
+created, and from the evil of the darkening (night) as it comes with its darkness,
+and from the evil of those who practice witchcraft when they blow in the
+knots, and from the evil of the envier when he envies.</string>
+
+    <string name="deight">D008- Bismillaahir-Rahmaanir-Raheem. Qul ‘a’oothu birabbin-naas . malikin-naas. ‘Ilahin-naas. Min sharril-waswaasil-khannaas. Allathee yuwaswisu fee sudoorin-naas. Minal-jinnati wannaas.</string>
+    <string name="deight_eng">With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek
+refuge with (Allah) the Lord of mankind, the King of mankind, the God of mankind,
+from the evil of the whisperer who withdraws, Who whispers in the
+breasts of mankind, of jinns and men.
+(Recite these three times each in Arabic.)</string>
+
+
+    <string name="dnine">D009-	‘Asbahnaa wa ‘asbahal-mulku lillaahi walhamdu lillaahi, laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu, lahul-mulku wa lahul-hamdu wa huwa ‘alaa kulli shay’in Qadeer. Rabbi ‘as’aluka khayra maa fee haathal-yawmi wa khayra maa ba’dahu wa ‘a’oothu bika min sharri maa fee haathal yawmi wa sharri maa ba’dahu, Rabbi ‘a’oothu bika min ‘athaabin fin-naari wa ‘athaabin fil-qabri.  </string>
+
+    <string name="dnine_eng">We have entered a new day[1] and with it all dominion is Allah’s. Praise  is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it.[2] My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell-fire, and from the Tpunishment of the grave. [3]</string>
+
+
+    <string name="dten">D010-	Allahumma bika ‘asbahnaa, wa bika ‘amsaynaa, wa bika nahyaa, wa bika namootu wa ‘ilaykal-nushoor .</string>
+    <string name="dten_eng">O Allah. By You we enter the morning and by You we enter the evening,[1] by You we live and by You we die, and to You is the final Return.[2]</string>
+    <string name="title_activity_week_image">WeekImageActivity</string>
+
+
+    <!-- <string name="exmaple_abrabic">أَشْهَدُ أَنْ  لَّآ إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ وَأَشْهَدُ أَن مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ</string>-->
+
+
+</resources>

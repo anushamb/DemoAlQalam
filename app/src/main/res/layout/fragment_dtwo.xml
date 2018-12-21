@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorWhite"
+    android:paddingLeft="16dp"
+    tools:context="com.frocerie.demoalqalam.duafrag.DtwoFragment">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Upon Completing Ablution (D002)"
+        android:textSize="@dimen/dua_heading_new"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللّٰهُوَحْدَهُ لاَ شَرِيْكَ لَهُ , وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ"
+        android:textAlignment="center"
+        android:id="@+id/arabic"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textColor="@color/colorList"
+        android:layout_gravity="left"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D002-  ‘Ash-hadu ‘an laa ‘ilaaha ‘illallaahu wahdahu laa shareeka lahu wa ‘ash-hadu ‘anna Muhammadan ‘abduhu wa Rasooluhu."
+        android:gravity="left"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textColor="@color/colorList"
+        android:textAppearance="@android:style/TextAppearance"
+        android:id="@+id/d"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:text="I bear witness that none has the right to be worshipped but Allah alone, Who has no partner; and I bear witness that Muhammad is His slave and His Messenger.[Muslim 1/209.]"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1/3"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <!-- <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_move_next"
+        tools:ignore="ContentDescription" />-->
+
+
+
+
+</LinearLayout>

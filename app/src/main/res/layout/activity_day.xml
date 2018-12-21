@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.batchphase.DayActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvTjw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_vertical"
+            android:paddingLeft="2dp"
+            android:text="@string/dayBatch"
+            android:textColor="@color/colorHidline"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvTjtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Timings: 5:00PM to 6:30PM
+"           android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvArabic"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="ARABIC BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvqurTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:text="@string/arbtime"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvQurTime"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text=" QUR’AN BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvQurTm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arbtime"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvUrduBatch"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text=" URDU BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvUrduTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arbtime"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvTasfBatch"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="TAFSEER BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvTasfTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arbtime"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvWeeklyBatc"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="WEEKLY BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvWeeklyTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sunday"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:id="@+id/tvWeeklySub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weeklysub"
+            android:textColor="@color/colorText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="3dp" />
+
+        <TextView
+            android:textColor="#000"
+            android:text=" - Tajweed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:text=" - Qur’an"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:text=" - Urdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:text=" - Arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#000"
+            android:text=" - Dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvQurTmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Timings:  6:30AM to 9:00AM"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvHadeBatch"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="HADEES BATCH"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvHadTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arbtime"
+            android:textColor="@color/colorText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

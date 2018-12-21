@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.IstikharahActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_heading_new"
+            android:text="ISTIKHARAH [SEEKING ALLAH’S COUNSEL] (D135)"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:text="Jābir bin Abdullah (R.A) said: The Prophet (P.B.U.H) said: The Prophet (P.B.U.H) used to teach us to seek Allah’s Counsel in all matters, as he used to teach us a Surah from the Qur’an. He would say: When anyone of you has an important matter to decide, let him pray two Rak’ahs other than the obligatory prayer, and then say:"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textAlignment="center"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:text="اَللّٰهُمَّ إِنِّي أَسْتَخِيْرُكَ بِعِلْمِكَ , وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ , وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ ,فَإِنَّكَ تَقْدِرُ وَلَاأَقْدِرُ , وَتَعْلَمُ , وَلَا أَعْلَمُ , وَأَنْتَ عَلَّامُ الْغُيُوبِ ,اَللّٰهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ -خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي--عَاجِلِهِ وَآجِلِهِ-- فَاقْدُرْهُ لِي وَ يَسِّرْ هُ لِيْ ثم بارك لي فيه ,  وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي --عَاجِلِهِ وَآجِلِهِ-- فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ ثُمَّ اَرْضِنِي بِهِ ."
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D135-  Allaahumma ‘innee ‘astakheeruka bi’ilmika, wa ‘astaqdiruka biqudratika, wa ‘as’aluka min fadhlikal-‘Adheemi fa’innaka taqdiru wa la ‘aqdiru, wa ta’lamu, wa laa ‘a’lamu, wa ‘Anta ‘Allamul-Ghuyoobi, Allaahumma ‘in kunta ta’lamu ‘anna haathal-‘amra-[then mention the thing to be decided] Khayrun lee fee deenee wa ma’aashee wa ‘aaqibati ‘amree- [or say] ‘Aajilihi wa ‘aajilihi – Faqdurhu lee wa yassirhu lee thumma baarik lee feehi, wa ‘in kunta ta’lamu ‘anna haathal-‘amra sharrun lee fee deenee wa ma’aashee wa ‘aaqibati ‘amree- [or say] ‘Aajilihi wa ‘aajilihi –Fasrifhu ‘annee wasrifnee ‘anhu waqdur liyal-khayra haythu kaana thumma ‘ardhinee bihi."
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O Allah, I seek the counsel of Your Knowledge, and I seek the help of Your Omnipotence, and I beseech You for Your Magnificent Grace. Surely, you are capable and I am not. You know and I know not, and you are the Knower of the unseen. O Allah, if You know that this matter [then mention the thing to be decided] is good for me in my religion and in my life and for my welfare in the life to come, - [or say: in this life and the after life]- then ordain it for me and make it easy for me, then bless me in it. And if You know that this matter is bad for me in my religion and in my life and for my welfare in the life to come, - [or say: in this life and the after life]- then distance it from me, and distance me from it, and ordain for me what is good wherever it may be, and help me to be content with it."
+            tools:ignore="HardcodedText"
+            android:gravity="left"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 1/1"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

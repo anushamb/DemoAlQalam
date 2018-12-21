@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.DfrtyFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/colorWhite">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText"
+            android:text="Allah’s Remembrance For Morning And Evening (D014)"
+            android:textSize="@dimen/dua_text_size"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_arabic_size_new"
+            android:textStyle="bold"
+            android:textColor="@color/duaTextColor"
+            android:textAlignment="center"
+            android:gravity="left"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="ااَللّٰهُمَّ عَافِنِى فِى بَدَنِى , اَللّٰهُمَّ عَافِنِى فِى سَمْعِى , اَللّٰهُمَّ  عَافِنِى فِى بَصَرِى , لَا إِلَهَ إِلاَّ أَنْتَ . اَللّٰهُمَّ  إِنِّى أَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِ , لَا إِلَهَ إِلاَّ أَنْتَ."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:text="D014-	Allaahumma ‘aafinee fee badanee, Allahumma ‘aafinee fee sam’ee, Allahumma ‘aafinee fee basaree, laa ‘ilaaha ‘illaa ‘Anta. Allahumma ‘innee ‘a’oothu bika minal-kufri, walfaqri, wa ‘a’oothu bika min ‘athaabil-qabri, laa ‘ilaha ‘illaa ‘Anta."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="O Allah make me healthy in my body. O Allah, preserve for me my hearing. O Allah, preserve for me my sight.  There is none worthy of worship but You. O Allah, I seek refuge in you from the punishment of the grave. There is none worthy of worship but You. (Recite three times.)"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/duaTextColor"
+            android:gravity="left"
+            android:text="[Abu Dawud 4/324, Ahmad 5/42, An-Nasā’I, Amalul-Yawm wal-Laylah (no. 22), Ibn As-Sunni (no. 69), Al-Bukhāri Al-‘Adab Al-Mufrad. Its chain of transmission is good (Hasan), Ibn Bāz, p.26.] "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Page 10/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

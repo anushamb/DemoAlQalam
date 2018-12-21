@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/div_view"
+    android:paddingBottom="@dimen/six_dp_div"
+    android:paddingRight="@dimen/six_dp_div"
+    android:background="@drawable/logbg"
+    android:paddingLeft="@dimen/six_dp_div"
+    android:orientation="vertical"
+    tools:context="com.frocerie.demoalqalam.FeedBackActivity">
+
+
+
+    <EditText
+        android:id="@+id/tvFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+
+        android:hint="Mobile Num"/>
+
+    <!--<TextView
+        android:id="@+id/tvFeed"
+        android:textColor="@color/colorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="text"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:ignore="HardcodedText" />-->
+
+    <View
+        android:id="@+id/vView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/div_view"
+        android:layout_below="@+id/tvFeed"/>
+
+
+    <EditText
+        android:id="@+id/etFeedBack"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/colorList"
+        android:hint="Enter FeedBack Message Here.....!!!!!"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine"
+        android:layout_below="@+id/vView"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+
+   <!-- <AutoCompleteTextView
+        android:layout_below="@+id/vView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoText"/>-->
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/vView"
+        android:layout_width="match_parent"
+        android:background="#FFF"
+        android:backgroundTint="#F5F5F5"
+        android:layout_height="250dp"
+        android:id="@+id/llLayout">
+
+
+        <EditText
+            android:id="@+id/etFeedBa"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/colorList"
+            android:hint="Enter FeedBack Message Here.....!!!!!"
+            android:layout_height="wrap_content"
+            android:inputType="text|textMultiLine"
+            android:layout_below="@+id/vView"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/div_view"
+        android:id="@+id/vView1"
+        android:layout_below="@+id/llLayout"/>
+-->
+
+
+    <Button
+        android:id="@+id/btSend"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="Send"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect_button"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="115dp" />
+
+
+
+
+
+</RelativeLayout>

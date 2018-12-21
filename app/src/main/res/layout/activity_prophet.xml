@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.ProphetActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="@dimen/dua_heading_new"
+        android:gravity="center"
+        android:text="How The Prophet P.B.U.H Glorified Allah"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:text="Abdullah bin Amr R.S said:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:text="I saw the Prophet P.B.U.H counting the glorification of His Lord on his right hand"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:gravity="left"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorList"
+        android:text="[Abu Dawud with a different wording 2/81, and At-Tirmithi 5/521. See also Al-Albani, Sahihul-Jami’ As-Saghir 4/271 (no. 4865).]"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1/1"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="HardcodedText,RtlHardcoded"/>
+
+</LinearLayout>

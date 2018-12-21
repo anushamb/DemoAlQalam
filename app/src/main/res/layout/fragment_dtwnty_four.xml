@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.frocerie.demoalqalam.DtwntyFourFragmnet">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=" Allah’s Remembrance For Morning And Evening (D024)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/dua_text_size"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="اَللّٰهُمَّ إِنِّى أَسْأَلُكَ عِلْماً نَافِعًا , وَ رِزْقًا طَيِّبًا ,  وَ عَمَلًا مُتَقَبَّلًا "
+        android:textColor="@color/duaTextColor"
+        android:textSize="@dimen/dua_arabic_size_new"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="D024-	Allahumma ‘innee ‘as’aluka ‘uilman naafi’an, wa rizqan tayyiban, wa ‘amalan mutaqabbalan."
+        android:textColor="@color/duaTextColor"
+        android:textSize="@dimen/dua_arabic_eng_new"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="O Allah, I ask You for knowledge that is of benefit, a good provision, and deeds that will be accepted. (Recite upon rising in the morning.)"
+        android:textColor="@color/duaTextColor"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="[Ibn As-Sunni, no. 54, Ibn Majah no. 925. Its chain of transmission is good (Hasan), Ibn Al-Qayyim 2/375.]"
+        android:textColor="@color/duaTextColor"
+        android:textSize="@dimen/dua_eng_size_new"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Page 20/26"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_move_next"
+        tools:ignore="ContentDescription" />-->
+
+</LinearLayout>

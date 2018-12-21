@@ -1,0 +1,178 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.frocerie.demoalqalam.DfiveFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="ScrollViewSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text=" Allah’s Remembrance For Morning And Evening (D005 - D030)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_heading_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="All praise is due to Allah alone, and peace and blessings be upon him after whom there is no other Prophet."
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[Anas (R.A) said that he heard the Prophet (P.B.U.H) say:
+                         “That I sit with people remembering Almighty Allah from the morning (Fajr) prayer until sunrise is more beloved to me than freeing four slaves from among the Children of Isma’il. That I sit with people remembering Allah from the afternoon (‘Asr prayer until the sun sets is more beloved to me than freeing four slaves from among the Children of Isma’il.” This was reported by Abu Dawud (no.3667). Al-Albāni graded it good in Sahih Abu Dawud 2/698.] "
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Allah’s remembrance for morning and evening (D005)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dua_heading_new"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="أَعُوْذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْم ,  اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَ ۚاَلْحَيُّ الْقَيُّوْمُ لَا تَاْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌ لَهٗ مَا فِي السَّمٰوٰتِ وَمَا فِي الْاَرْضِ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۗءَ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ  وَالْاَرْضَ وَلَا يَئُوْدُهٗ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيْمُ."
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_arabic_size_new"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/dfive"
+            android:textColor="@color/colorList"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="@dimen/dua_arabic_eng_new"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/dfive_eng"
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="[Whoever says this when he rises in the morning will be protected from jinns until he retires in the evening, and whoever says it when retiring in the evening will be protected from them until he rises in the morning. It was reported by Al-Hākim 1/562, Al-Albāni graded it as authentic in Sahīhut-Targhīb wa-Tarhīb 1/273, and traces it to An-Nasā’i and At-Tabarāni. He says that At-Tabarāni chain of transmission is reliable (Jayyid)."
+            android:textColor="@color/colorList"
+            android:textSize="@dimen/dua_eng_size_new"
+            android:textAppearance="@android:style/TextAppearance"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Page 1/26"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_move_next"
+            tools:ignore="ContentDescription" />-->
+
+
+    </LinearLayout>
+
+
+</ScrollView>

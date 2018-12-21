@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.batchphase.HifdActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tHifd"
+            android:textColor="@color/colorHidline"
+            android:text="@string/hifd"
+            android:textSize="15sp"
+            android:paddingLeft="2dp"
+            android:gravity="fill_vertical"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+        <TextView
+            android:id="@+id/tvair"
+            android:text="- Air Conditioner"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Food"
+            android:id="@+id/tvFood"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Accommodation"
+            android:id="@+id/tvAcco"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- CC Camera Surveillance"
+            android:id="@+id/tvCC"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Transportation"
+            android:id="@+id/tvTran"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Electricity Backup"
+            android:id="@+id/tvEl"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Hot Water"
+            android:id="@+id/tvHot"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvMed"
+            android:text="- Medical Assist"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvAdditiona"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="@string/additional"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tvStu"
+            android:text="- Islamic Studies"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Tajweed"
+            android:id="@+id/tvTaj"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Spoken English"
+            android:id="@+id/tvSpoEng"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Mathematics"
+            android:id="@+id/tvMath"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Spoken Arabic"
+            android:id="@+id/tvSpo"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Urdu"
+            android:id="@+id/tvurdu"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Malayalam"
+            android:id="@+id/tvMal"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvExtar"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="@string/extra"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="- Computer Class"
+            android:id="@+id/tvCom"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="- Stitching"
+            android:id="@+id/tvSti"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Sports"
+            android:id="@+id/tvSport"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvNote"
+            android:textColor="@color/colorHidline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="@string/note"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:text="- Age above 13 years"
+            android:id="@+id/age"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="- Yatheem and needy can avail the facilities at ‘No Cost’*"
+            android:id="@+id/yatheem"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/condition"
+            android:textColor="#F50057"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="*Conditions apply"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

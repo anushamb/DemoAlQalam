@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+
+    tools:context="com.frocerie.demoalqalam.dua.HajjActivityDua">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:text="HAJJ OR UMRAH"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <Button
+            android:id="@+id/tvHajjText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="1.The pilgrim’s announcement of his arrival for Hajj or ‘Umrah (D123)."
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        <Button
+            android:id="@+id/tvHajjText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="2.When passing the Black Stone (D124)."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        <Button
+            android:id="@+id/tvHajjText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="3.Between the Yemenite Corner and the Black stone (D125)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/tvHajjText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="3.While standing at Safa and Marwah (D126 - D128)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/tvHajjText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="4.On the day of Arafah (D129)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        <Button
+            android:id="@+id/tvHajjText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="5.At the sacred area of Muzdalifah."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+        <Button
+            android:id="@+id/tvHajjText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvHajjText5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/ripple_effect_button"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="6.While stoning the ‘three pillars’ [Jamarat] at Mina ."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

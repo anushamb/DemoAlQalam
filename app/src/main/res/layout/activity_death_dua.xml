@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.frocerie.demoalqalam.dua.DeathActivityDua">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorWhite"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEATH"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:id="@+id/textView6"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"/>
+
+
+        <Button
+            android:id="@+id/tvDeath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:text="1.Invocations of the terminally ill (D069 - D071)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:textAllCaps="true"
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/tvDeathSay"
+            android:layout_alignStart="@+id/tvDeathSay"
+            android:layout_alignRight="@+id/tvDeathSay"
+            android:layout_alignEnd="@+id/tvDeathSay" />
+
+
+        <Button
+            android:id="@+id/tvDeathSay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.What to encourage the dying person to say (D072)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvDeath"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+
+        <Button
+            android:id="@+id/tvDeathStrik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.When tragedy strikes (D073)."
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvDeathSay"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Closing the eyes of the dead (D074)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDeathEyes"
+            android:layout_below="@+id/tvDeathStrik"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvDeathDead"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Dead in the Funeral prayer     (D075 - D078)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvDeathEyes"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvDeChild"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Child in the Funeral prayer (D079 - D080)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvDeathDead"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvDeBere"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.For the bereaved (D081 - D082)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvDeChild"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="8.Placing the dead in his grave (D083)."
+            android:onClick="onClick"
+            android:clickable="true"
+            android:id="@+id/tvdeaGrave"
+            android:layout_below="@+id/tvDeBere"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.After burying the dead (D084)."
+            android:onClick="onClick"
+            android:clickable="true"
+            android:id="@+id/tvDeaAfter"
+            android:layout_below="@+id/tvdeaGrave"
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/tvDeadVisit"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.Visiting the graves (D085)."
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/tvDeaAfter"
+
+            android:background="@drawable/ripple_effect_button"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="16dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+<!--
+
+        <Button
+            android:id="@+id/tvDeath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="true"
+            android:clickable="true"
+            android:onClick="onClick"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:text="1.Invocations of the terminally ill (D069 - D071)"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+       <Button
+           android:id="@+id/tvDeathSay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="true"
+            android:text="2. What to encourage the dying person to   say (D072)"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:gravity="left|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"
+            android:layout_below="@+id/tvDeath"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+           android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/tvDeathStrik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. When tragedy strikes (D073)."
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:onClick="onClick"
+            android:gravity="left|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_below="@+id/tvDeathSay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Closing the eyes of the dead (D074)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:id="@+id/tvDeathEyes"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/tvDeathStrik"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/tvDeathDead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Dead in the Funeral prayer (D075 - D078)"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/tvDeathEyes"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/tvDeChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Child in the Funeral prayer (D079 - D080)"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/tvDeathDead"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/tvDeBere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.For the bereaved (D081 - D082)"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            tools:ignore="HardcodedText"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvDeChild"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.After burying the dead (D084)."
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:id="@+id/tvdeaGrave"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/tvDeBere"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/tvDeadVisit"
+            android:layout_below="@+id/tvdeaGrave"
+            android:textColor="@color/colorList"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.Visiting the graves (D085)."
+            android:onClick="onClick"
+            android:clickable="true"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"/>
+-->
+
+
+
+
+
+
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDeath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Invocations of the terminally ill (D069 - D071)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvDeathSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- What to encourage the dying person to say (D072)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textColor="@color/colorList"
+        tools:ignore="HardcodedText" />
+
+
+
+    <TextView
+        android:id="@+id/tvDeathStrik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- When tragedy strikes (D073)."
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Closing the eyes of the dead (D074)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:id="@+id/tvDeathEyes"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvDeathDead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Dead in the Funeral prayer (D075 - D078)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvDeChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Child in the Funeral prayer (D079 - D080)"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvDeBere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- For the bereaved (D081 - D082)"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" - Placing the dead in his grave (D083)."
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:id="@+id/tvdeaGrave"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- After burying the dead (D084)."
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:id="@+id/tvDeaAfter"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvDeadVisit"
+        android:textColor="@color/colorList"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Visiting the graves (D085)."
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="HardcodedText" />-->
+
+</ScrollView>

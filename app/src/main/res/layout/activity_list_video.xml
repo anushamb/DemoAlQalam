@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/six_dp_div"
+    android:background="@drawable/logbg"
+    tools:context="com.frocerie.demoalqalam.videoactivity.ListVideoActivity">
+
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/tvVideoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Name"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/videoView1"
+        android:gravity="center"
+        tools:ignore="HardcodedText" />
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvVideoName"
+        android:id="@+id/viewView"
+        android:background="@color/colorAccent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerVideo"
+        android:layout_below="@+id/viewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+  <!--  <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+
+
+
+<!--    <ImageButton
+        android:id="@+id/btn_play_pause"
+        android:src="@drawable/ic_play"
+        android:layout_below="@+id/videoView1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+<!--
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/btn_play_pause"
+        android:id="@+id/viewView"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerVideo"
+        android:layout_below="@+id/viewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+-->
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
